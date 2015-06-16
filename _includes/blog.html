@@ -1,0 +1,23 @@
+
+<div class="blog group">
+  <h2 class="page-heading">read through my blog</h2>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+
+    <li class="blog-post group">
+  <img src="{{post.image}}" class="blog-img">
+  <h3>
+    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+</h3>
+  <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  {{post.excerpt}}
+  <a class="read-more" href="{{ post.url | prepend: site.baseurl }}">read more&#8230</a> 
+</li>
+      
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe group">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+</div>
+
