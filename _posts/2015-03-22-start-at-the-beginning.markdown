@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Start At the Beginning"
 date:   2015-03-22 09:00:00
 categories: designer-travels

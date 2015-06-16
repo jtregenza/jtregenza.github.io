@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Experimenting With Jekyll"
 date:   2015-04-01 08:45:00
 categories: designer-travels
