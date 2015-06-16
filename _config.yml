@@ -1,8 +1,8 @@
 # Site settings
 title: Josh Tregenza | Designer
 email: josh@joshtregenza.com
-description: > # this means to ignore newlines until "baseurl:"
-  I'm a designer of sites, ideas and processes that make my life more efficient and my clients. This site and the ones featured in this site have been designer and developed by myself using a range of standards based systems. 
+description: >
+  I’m an autodidact designer that is curious in the interactions between people and how design plays a part in that communication. I code and build sites with the user at the forefront.
 url: "http://www.joshtregenza.com" # the base hostname & protocol for your site
 twitter_username: joshtregenza
 github_username:  jtregenza
