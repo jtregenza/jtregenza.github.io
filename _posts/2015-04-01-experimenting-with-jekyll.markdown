@@ -3,6 +3,7 @@ title:  "Experimenting With Jekyll"
 date:   2015-04-01 08:45:00
 categories: designer-travels
 image: /assets/img/potion.png
+layout: "post"
 ---
 
 When I decided to renew my skill set and improve them, I wanted to make sure I rebuilt from anew. I wanted to make a new site that wasn't built in a CMS.

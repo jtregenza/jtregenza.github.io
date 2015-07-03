@@ -3,6 +3,7 @@ title:  "Start At the Beginning"
 date:   2015-03-22 09:00:00
 categories: designer-travels
 image: /assets/img/mad-hatters-hat.png
+layout: "post"
 ---
 I think I've changed my site design three times, before even showing it to others. This is the fourth.
 

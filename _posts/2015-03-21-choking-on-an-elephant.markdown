@@ -3,6 +3,7 @@ title:  "Choking on an elephant"
 date:   2015-03-21 09:00:00
 categories: designer-travels
 image: /assets/img/eaten-elephant.png
+layout: "post"
 ---
 
 I'm in the throes identity crisis, as a person and as a designer. I'm not discouraged by this, self-exploration can lead to one's own betterment.

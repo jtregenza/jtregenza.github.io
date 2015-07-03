@@ -3,31 +3,25 @@ layout: new_default
 ---
 
 
-<div class="home-bio">
-  <h1>i'm disrupting the way you see josh tregenza :)</h1>
-  <p>I build and solve problems with web and experience design. I perform user and buyer research, which aids myself and clients make informed decisions. I also design social media and marketing processes where needed.</p>
+<article class="home-content">
+  <section class="about-josh">
+    <h1> I am an autodidact designer that is curious in the interactions between people and how design plays a part in that communication. I code and build sites for users, alongside companies. </h1>
+    <p>I try and learn constantly and grow my skillset and my understanding. I am currently taking courses into development.  I love making pixel and low poly art and building with lego. This site showcases some of my work and I detail my adventures and insights in the world and in my projects. 
 
-  <p>When not designing, I'm questioning everything, a lot. I search for a better way, a better answer and a better way to live the life I've chosen for myself.
-
-  <p>My background is in film, photography and writing but now fervently pursue the craft of design for the past two years.</p>
-  <p>I used to run a small web magazine, Due Diligence Magazine. Where I was web master and editor. As I pursue my craft as a designer, the magazine is on extended hiatus.</p>
-
-  <p>I love design, nothing makes me happier than going through the processes of design, whether it's for clients or myself.</p>
-
-  <p>In my spare time I play video games, create pixel art, cook americana and french food and write about eating food made by others. </p> 
+    I am curently looking for the opportunity to design in the United States. If you would like to get in touch you can reach me on twitter <a href="http://twitter.com/joshtregenza">@joshtregenza</a> or email at <a href="mailto:josh@joshtregenza.com">josh@joshtregenza.com</a></p>
+  </section>
+  <section class="home-writings">
+    <div class="home-writing-posts">
+      <h2>I write, therefore, you [can] read</h2>
+      {% include blog.html %}
+      <a href="/blog/" class="home-blog-link"><h2>discover more of my writing</h2></a>
     </div>
-    <div class="rationale">
-        <p>Whilst I explore, learn and grow as a designer, this site will be my playground. You'll see me develop and showcase my skills. Parts will change, some noticable, some not. I will blog my thoughts and feelings of this process and my coding will become more comprehension. Poke around and see what you can find</p> 
-        </div> 
-    <div class="buildings">
-      
-      <img src="/assets/img/josh_portrait.png" class="josh-face" alt="pixel image of josh tregenza">
-      
+    <div class="fun-col">
+      <img src="/assets/img/josh_portrait.png" alt="image of some low poly stuff"/>
     </div>
-    <div class="home-contact">
-  <p>contact me: <a href="mailto:{{site.email}}">{{site.email}}</a></p>
-    </div>
+  </section>
+</article>
 
 
-{% include blog.html %}
+
 

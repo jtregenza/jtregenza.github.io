@@ -1,0 +1,154 @@
+.post-content{
+    font-size:1.5rem;
+}
+
+.blog {
+    p {
+    margin: 1em 0;
+    padding:0 1em;
+    text-align:justify;
+}
+ul{
+    margin-left:0px;
+}
+@include media-query($on-desk) {
+    width:95%;
+    margin:0 auto;
+    }
+}
+
+.post-header{
+    text-transform: lowercase;
+     h1 {
+        font-size:1.4rem;
+        @include media-query($on-desk) {
+            font-size:2.2em;
+        }
+    }
+}
+
+.post-content {
+    padding: 0.5em;
+    font-size:1rem;
+    @include media-query($on-desk) {
+        font-size:1.5em;
+    }
+
+  
+}
+
+
+.blog-post{
+        img{
+            display: block;
+
+        }
+        p {
+            font-size: 1em;
+            text-align:center;
+        }
+        h3 {
+            text-align:left;
+        }
+    display:block;
+    width:95%;
+    margin: 0 auto;
+    margin-bottom:1em;
+    border-radius:5px;
+    overflow: hidden;
+    @include bigShadow;
+     @include media-query($on-desk) {
+            display:block;
+            width:100%;
+            margin: 0 auto;
+            margin-bottom:1em;
+            border-radius:5px;
+            
+        }
+}
+
+.blog-image {
+    display:flex;
+    justify-content:center;
+    background-color:$blogPostColor;
+    overflow:hidden;
+    @include media-query($on-desk) {
+    -webkit-box-shadow: inset -2px 0px 2px 0px rgba(0,0,0,0.24);
+    -moz-box-shadow: inset -2px 0px 2px 0px rgba(0,0,0,0.24);
+    box-shadow: inset -2px 0px 2px 0px rgba(0,0,0,0.24);
+}
+a {
+    align-self:center;
+}
+
+}
+
+.home-writings {
+    display: flex;
+    flex-direction: column;
+    @include media-query($on-desk) {
+        flex-direction: row;
+    }
+    flex-items:flex-start;
+    width:100%;
+    justify-content: space-between;
+}
+
+.home-writing-posts{
+    display: flex;
+    flex-direction: column;
+    order:1;
+    @include media-query($on-desk) {
+    order:2;
+    width:70%;
+    }
+    a{
+        font-weight:300;
+    }
+}
+
+.fun-col {
+    order:2;
+    width:100%;
+    @include media-query($on-desk) {
+    order:1;
+    width:20%;
+    align-self:center;
+    }
+}
+
+
+.post-list {
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        margin:0 auto;
+}
+
+.blog-post {
+    display:flex;
+    flex-direction: column;
+    @include media-query($on-desk) {
+      flex-direction: row;  
+    }
+    .blog-excerpt {
+        width:72.519%;
+        h3 {
+            margin: 0.5em 2em;
+            font-size:1.25em;
+        a{
+            font-weight: 400;
+        }
+        }
+    }
+
+p{
+    text-align: left;
+    margin-top:0;
+}
+}
+
+
+.home-blog-link {
+    align-self: flex-end;
+}
