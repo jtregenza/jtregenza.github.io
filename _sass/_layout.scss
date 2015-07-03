@@ -183,6 +183,7 @@ footer svg {
     svg {
         margin:0 auto;
         @include media-query($on-desk) {
+            margin: 0 ;
         margin-right:auto;
     }
     }
