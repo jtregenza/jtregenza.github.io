@@ -112,6 +112,7 @@ a {
 .fun-col {
     order:2;
     width:100%;
+    align-self:center;
     @include media-query($on-desk) {
     order:1;
     width:20%;
