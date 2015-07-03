@@ -58,7 +58,6 @@ ul{
     overflow: hidden;
     @include bigShadow;
      @include media-query($on-desk) {
-            display:block;
             width:100%;
             margin: 0 auto;
             margin-bottom:1em;
@@ -79,6 +78,7 @@ ul{
 }
 a {
     align-self:center;
+    margin:0 auto;
 }
 
 }
@@ -132,7 +132,10 @@ a {
       flex-direction: row;  
     }
     .blog-excerpt {
+        width:100%;
+        @include media-query($on-desk) {
         width:72.519%;
+    }
         h3 {
             margin: 0.5em 2em;
             font-size:1.25em;
