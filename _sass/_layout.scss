@@ -230,7 +230,4 @@ footer svg {
 
 /*** TESTING CODE ****/
 
-img[src="/assets/img/josh_portrait.png"] {
-    @include border-radius(100%);
-    border:10px solid $menuColor;
-}
+
