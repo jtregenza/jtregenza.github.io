@@ -35,8 +35,8 @@ body{
             margin-bottom:-16em;
         }
     }
-}}
 }
+
 
 body, footer{
     @include media-query($on-desk) {
