@@ -69,6 +69,7 @@ ul{
 .blog-image {
     display:flex;
     justify-content:center;
+    text-align:center;
     background-color:$blogPostColor;
     overflow:hidden;
     @include media-query($on-desk) {
