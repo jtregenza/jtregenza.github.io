@@ -164,9 +164,7 @@ footer {
 }
 
 footer svg {
-    float:left;
     width:7%;
-    padding:0.25em 1em;
 }
 
 
@@ -178,7 +176,7 @@ footer svg {
     display: flex;
     flex-direction: column;
     svg {
-        margin-left:auto;
+        margin-right:auto;
     }
     @include media-query($on-desk){
         flex-direction: row;
