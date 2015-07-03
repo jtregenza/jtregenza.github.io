@@ -98,6 +98,19 @@ a{
     color:#4A4A4A;
 }
 
+
+@font-face {
+    font-family: 'socicon';
+    src: url('../assets/font/socicon.eot');
+    src: url('../assets/font/socicon.eot?#iefix') format('embedded-opentype'),
+         url('../assets/font/socicon.woff') format('woff'),
+         url('../assets/font/socicon.ttf') format('truetype'),
+         url('../assets/font/socicon.svg#sociconregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    text-transform: initial;
+}
+
 /******HEADING******/
 
 .logo {
@@ -156,12 +169,9 @@ footer svg {
     padding:0.25em 1em;
 }
 
-.footer_socialMedia {
-    a {
-        padding: 0.125em;
-    }
-    float:right;
-    padding-top:0.5em;
+
+.socicon {
+    font-family: 'socicon' !important;
 }
 
 
