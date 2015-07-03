@@ -177,6 +177,9 @@ footer svg {
 .social-media-things {
     display: flex;
     flex-direction: column;
+    svg {
+        margin-left:auto;
+    }
     @include media-query($on-desk){
         flex-direction: row;
     }
