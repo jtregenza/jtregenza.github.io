@@ -1,0 +1,27 @@
+.home-bio .wrapper {
+    p {
+        margin: 1em 0;
+        padding:0 1em;
+        text-align:justify;
+        }
+}
+
+.home-bio, .home-blog, .blog, .portfolio, .wrapper, .home-content  {
+    @include media-query($on-desk) {
+        max-width:61.250em;
+        margin: 0 auto;
+        display: block;
+        padding: 0 0.8em;
+    } 
+}
+
+
+
+
+
+.about-josh p {
+    float:right;
+    width:90%;
+
+}
+

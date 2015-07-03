@@ -3,6 +3,7 @@ title:  "Designer, by way of Actor"
 date:   2015-03-21 09:00:00
 categories: designer-travels
 image: /assets/img/drama-masks.png
+layout: "post"
 ---
 
 I'll come right out and say it, I learnt a damn lot about being a designer from being an actor.
