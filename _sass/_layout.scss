@@ -190,6 +190,10 @@ footer svg {
 
 .socicon {
     font-family: 'socicon' !important;
+    a:hover{
+        background-color:$socialColor;
+        border-raidus:100%;
+    }
 }
 
 .social-media-things {
