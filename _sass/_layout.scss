@@ -17,6 +17,10 @@ body{
 }
 
 .site-header {
+    margin-bottom:1em;
+        @include media-query($on-desk) {
+            margin-bottom: 0;
+    }   
             img{
                 width:70%;
                 max-width:340px;
@@ -37,6 +41,7 @@ body{
             margin-bottom:-16em;
         }
     }
+
 }
 
 
