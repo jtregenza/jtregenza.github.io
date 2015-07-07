@@ -151,7 +151,7 @@ a{
 .nav {
     display: flex;
     flex-direction: column;
-    @include media-query($on-desk){
+    @include media-query($on-desk) {
         flex-direction: row;
     }
     list-style-type: none;
@@ -161,7 +161,9 @@ a{
     background:$menuColor;
     li{
         margin:0.5em 1.25em;
+         @include media-query($on-desk) {
         align-self:center;
+    }
         a{
           color:#fafafa;
           font-size:1.25em;
