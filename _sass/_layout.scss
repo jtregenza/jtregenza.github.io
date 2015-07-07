@@ -156,11 +156,12 @@ a{
     }
     list-style-type: none;
     margin:0 auto;
-    padding:1.25rem;
+    padding:0.5rem;
     @include bigShadow;
     background:$menuColor;
     li{
         margin:0.5em 1.25em;
+        align-self:center;
         a{
           color:#fafafa;
           font-size:1.25em;
