@@ -26,7 +26,7 @@ Don't get me wrong, I want to learn the command line. I am in fact learning more
 
 This was a bit laborious, most command line training is dry. The Jekyll documentation looks to be for an audience that has a bit more dev knowledge than I have. I felt a bit lost, with more questions that answers.
 
- A bit more searching I came across a <a href="https://youtu.be/iWowJBRMtpc" target="_blank">youtube video</a> that gave me the confidence to get the ball rolling.  To learn new things, I'll either throw myself headfirst into it and tinker . In this case, when the task is a little more complex I needed someone to walk me through it. 
+ A bit more searching and I came across this <a href="https://youtu.be/iWowJBRMtpc" target="_blank">youtube video</a> that gave me the confidence to get the ball rolling.  To learn new things, I'll either throw myself headfirst into it and tinker. In this case, when the task is a little more complex I needed someone to walk me through it. 
 
 With the most daunting part of this little project out of the way, I had Jekyll set up and I had a working knowledge of how to get around it. I got to work in cutting up my code to put it into module and getting my blog posts into markdown. 
 
@@ -39,4 +39,4 @@ At the end of it, I can't imagine using a static site generator for a client pro
 
 As I said early, I am learning about git and my next step with the site is to put it onto Github. I want to make the deployment of site changes and blog posts that much more simple for me. 
 
-For the time being my site's code is up on my Github as I learn all the ins and outs of it. If you wanted to see what I've done with my site, feel free to check it out <a href="https://github.com/jtregenza/josh_tregenza_site" tagert="_blank">here</a>. If you have an suggestions for my site, let me know through Github or send me an <a href="mailto:{{site.mail}}" target="_blank">email</a>.
+For the time being my site's code is up on my Github as I learn all the ins and outs of it. If you wanted to see what I've done with my site, feel free to check it out <a href="https://github.com/jtregenza/jtregenza.github.io" tagert="_blank">here</a>. If you have an suggestions for my site, let me know through Github or send me an <a href="mailto:{{site.mail}}" target="_blank">email</a>.
