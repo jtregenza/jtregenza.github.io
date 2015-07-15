@@ -6,7 +6,7 @@
         }
 }
 
-.home-bio, .home-blog, .blog, .portfolio, .wrapper, .home-content  {
+.home-bio, .home-blog, .blog, .portfolio, .wrapper, .home-content, .blog-page   {
     @include media-query($on-desk) {
         max-width:61.250em;
         margin: 0 auto;
