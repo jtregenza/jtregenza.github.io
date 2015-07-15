@@ -212,7 +212,7 @@
     }
 
 /** NEW PORTFOLIO AREA**/
-    .port-area {
+.port-area {
   width:100%;
   display:flex;
   flex-direction:column;
@@ -234,6 +234,10 @@
   zoom:2;
 }
 
-.shots li{
-    list-style: none;
-} 
+.shots{
+    display:flex;
+    flex-direction: row;
+    li{
+        list-style: none;
+    } 
+}
