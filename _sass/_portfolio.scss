@@ -228,8 +228,12 @@
 
 .low-poly, .pixel-art {
     img {
+        width:90%;
+        align-self:center;
+    @include media-query($on-desktop){
       width:250px;
-      transition:1s ease-in;
+    }
+      transition:0.2s ease-in;
         &:hover {
             @include smallShadow;
         }
@@ -239,8 +243,14 @@
 
 .shots{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
+        @include media-query($on-desktop){
+        flex-direction: row;
+        }
     li{
         list-style: none;
+            @include media-query($on-desktop){
+            margin:0 5%;
+        }
     } 
 }
