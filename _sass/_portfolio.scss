@@ -244,6 +244,7 @@
 .shots{
     display:flex;
     flex-direction: column;
+    background-color: #eee;
         @include media-query($on-desk) {
         flex-direction: row;
         }
@@ -251,3 +252,7 @@
         list-style: none;
     } 
 }
+
+h3 > i{
+    margin-left:1em;
+} 
