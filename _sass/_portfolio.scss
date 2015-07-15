@@ -226,12 +226,14 @@
   display:none;
 }
 
-.low-poly img {
-  width:200px;
-  transition:1s ease-out;/**Not working**/
-}
-.low-poly:hover img {
-  zoom:2;
+.low-poly, .pixel-art {
+    img {
+      width:250px;
+      transition:1s ease-in;
+    }
+    &:hover {
+        @include smallShadow;
+    }
 }
 
 .shots{
