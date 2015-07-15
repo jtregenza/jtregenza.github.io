@@ -230,10 +230,11 @@
     img {
       width:250px;
       transition:1s ease-in;
+        &:hover {
+            @include smallShadow;
+        }
     }
-    &:hover {
-        @include smallShadow;
-    }
+
 }
 
 .shots{
