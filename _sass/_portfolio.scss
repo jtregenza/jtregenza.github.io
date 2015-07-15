@@ -39,7 +39,6 @@
 .shots{
     display:flex;
     flex-direction: column;
-    background-color: #eee;
     margin-left:0;
         @include media-query($on-desk) {
         flex-direction: row;
