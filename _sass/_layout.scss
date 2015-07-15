@@ -177,7 +177,7 @@ a{
 /********FOOTER********/
 
 footer {
-    
+    width:70%;
 }
 
 @include media-query($on-desk) {
@@ -192,7 +192,7 @@ footer {
 
 footer svg {
 @include media-query($on-desk) {
-    width:7%;
+    width:10%;
 }
     height: 50px;
 
