@@ -88,8 +88,9 @@ h1{
     font-size:1.5em;
     margin:1em 0;
     @include media-query($on-bigmobile){
-        font-size:1.5em;
+        font-size:1.875em;
         width:75%;
+        line-height: 1.3em;
     }
 
 }
