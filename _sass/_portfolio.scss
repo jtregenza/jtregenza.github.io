@@ -231,6 +231,7 @@
         width:90%;
     @include media-query($on-desk) {
       width:250px;
+      margin:0 2%;
     }
       transition:0.2s ease-in;
         &:hover {
@@ -248,8 +249,5 @@
         }
     li{
         list-style: none;
-            @include media-query($on-desk) {
-            margin:0 5%;
-        }
     } 
 }
