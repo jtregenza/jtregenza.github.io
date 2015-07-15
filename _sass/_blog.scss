@@ -19,9 +19,6 @@ ul{
 
 .post-header{
     text-transform: lowercase;
-    @include media-query($on-desk) {
-                margin-top:1em;
-            }
      h1 {
         font-size:1.4rem;
         @include media-query($on-desk) {
@@ -36,6 +33,7 @@ ul{
     font-size:1rem;
     @include media-query($on-desk) {
         font-size:1.5em;
+        margin-top: 3em;
     }
 
   
