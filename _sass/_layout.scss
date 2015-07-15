@@ -16,6 +16,12 @@ body{
     margin: 0 auto;
 }
 
+footer{
+    @include media-query($on-desk) {
+        max-width:61.250em;
+    }
+}
+
 .site-header {
     margin-bottom:2em;
         @include media-query($on-desk) {
@@ -156,7 +162,7 @@ a{
     flex-direction: column;
     @include media-query($on-desk) {
         flex-direction: row;
-        width:80%;
+        max-width:61.250em;
     }
     list-style-type: none;
     margin:0 auto;
