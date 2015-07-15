@@ -210,3 +210,26 @@
         margin-left:1em;
         font-size:0.75em;
     }
+
+/** NEW PORTFOLIO AREA**/
+    .port-area {
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  margin:0 auto;
+}
+
+.low-poly img[alt^="pixel art"] {
+  display:none;
+} /****Do this and you'll be able to segment the shots into their tags****/
+.pixel-art img[alt^="low poly"] {
+  display:none;
+}
+
+.low-poly img {
+  width:200px;
+  transition:1s ease-out;/**Not working**/
+}
+.low-poly:hover img {
+  zoom:2;
+}
