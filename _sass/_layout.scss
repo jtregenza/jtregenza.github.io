@@ -16,11 +16,6 @@ body{
     margin: 0 auto;
 }
 
-footer{
-    @include media-query($on-desk) {
-        max-width:61.250em;
-    }
-}
 
 .site-header {
     margin-bottom:2em;
@@ -183,7 +178,9 @@ a{
 /********FOOTER********/
 
 footer {
-    width:70%;
+    @include media-query($on-desk) {
+        max-width:61.250em;
+    }
 }
 
 @include media-query($on-desk) {
