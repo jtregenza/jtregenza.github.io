@@ -160,3 +160,10 @@ p{
 .home-blog-link {
     align-self: flex-end;
 }
+
+.outline-link {
+    align-self:flex-end;
+    border-radius:5px;
+    border:1px solid $blogPostColor;
+    padding:0.5em;
+}
