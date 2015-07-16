@@ -163,7 +163,7 @@ p{
     align-self: flex-end;
 }
 
-.outline-link {
+a.outline-link {
     margin-left:auto;
     margin-right:2em;
     border-radius:5px;
@@ -171,7 +171,5 @@ p{
     color:$blogPostColor;
     padding:0.2em 0.7em;
     margin-bottom:1.5em;
-    a{
-        font-weight:light;
-    }
+    font-weight:light;
 }
