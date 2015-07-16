@@ -290,5 +290,12 @@ footer svg {
 
 
 /*** TESTING CODE ****/
-
+article   {
+    @include media-query($on-desk) {
+        max-width:61.250em;
+        margin: 0 auto;
+        display: block;
+        padding: 0 0.8em;
+    } 
+}
 
