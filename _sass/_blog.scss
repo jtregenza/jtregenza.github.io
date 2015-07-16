@@ -162,9 +162,10 @@ p{
 }
 
 .outline-link {
-    align-self:flex-end;
+    margin-left:auto;
     border-radius:5px;
     border:1px solid $blogPostColor;
+    color:$blogPostColor;
     padding:0.2em 0.7em;
-    margin-bottom:1em;
+    margin-bottom:1.5em;
 }
