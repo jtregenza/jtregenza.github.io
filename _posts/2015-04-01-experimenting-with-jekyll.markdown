@@ -6,7 +6,7 @@ image: /assets/img/potion.png
 layout: "post"
 ---
 
-When I decided to renew my skill set and improve them, I wanted to make sure I rebuilt from anew. I wanted to make a new site that wasn't built in a CMS.
+When I decided to renew my skill set and improve them, I wanted to make sure I rebuilt from a clean slate. I wanted to make a new site that wasn't built in a CMS.
 
 As familiar as I am with Wordpress and other CMS systems, I would learn a lot more. I wanted to challenge myself as a designer learning development. 
 
