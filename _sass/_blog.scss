@@ -138,6 +138,8 @@ a {
     }
     .blog-excerpt {
         width:100%;
+        display: flex;
+        flex-direction: column;
         @include media-query($on-desk) {
         width:72.519%;
     }
