@@ -136,17 +136,6 @@ a{
 
 /******HEADING******/
 
-.logo {
-    min-width: 300px;
-    width: 30%;
-    display: block;
-    margin:0 auto;
-    padding-top: 2px;
-    @include media-query($on-desk){
-        max-width: 25em;
-    }
-
-}
 
 .site-header {
     @include bigShadow;
