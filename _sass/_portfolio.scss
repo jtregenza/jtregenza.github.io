@@ -24,9 +24,11 @@
 .low-poly, .pixel-art {
     img {
         width:90%;
-        margin:0 auto;
+          border: 5px solid #FEFEFE;
+          margin: 2px;
     @include media-query($on-desk) {
       width:250px;
+
     }
       transition:0.2s ease-in;
         &:hover {
