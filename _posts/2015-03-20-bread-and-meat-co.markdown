@@ -3,7 +3,7 @@ title:  "Bread and Meat Co."
 date:   2015-03-21 09:00:00
 categories: food
 image: /assets/img/meat-sandwich.png
-color: '$red'
+color: $red
 layout: "post"
 ---
 
