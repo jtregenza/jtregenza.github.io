@@ -26,8 +26,42 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 $menuColor:#F44336;
 $headerColor:#37474F;
-$blogPostColor: {{ post.color.hex }} ;
+$blogPostColor: $color;
 $socialColor:#F44336;
+
+$blogPostColor:
+$color:$red, $pink, $purple, $darkpurple, $darkblue, $blue, $lightblue, $aqua, $teal, $green, $olive, $lightgreen, $lightyellow, $yellow, $gold, $orange, $brown, $grey, $steel, $black, $white;
+$repeat: 10  // How often you want the pattern to repeat.
+// Warning: a higher number outputs more CSS.
+
+@for $i from 1 through $repeat {
+    blog-post:nth-child(#{length($colors)}n+#{$i}) {
+        background: (nth($colors, random(length($colors)));
+    }
+};
+
+$red:#F44336;
+$pink:#E91E63;
+$purple:#9C27B0;
+$darkpurple:#673AB7;
+$darkblue:#3F51B5;
+$blue:#2196F3;
+$lightblue:#03A9F4;
+$aqua:#00BCD4;
+$teal:#009688;
+$green:#4CAF50;
+$olive:#8BC34A;
+$lightgreen:#CDDC39;
+$lightyellow:#FFEB3B;
+$yellow:#FFC107;
+$gold:#FF9800;
+$orange:#FF5722;
+$brown:#795548;
+$grey:#9E9E9E;
+$steel:#607D8B;
+$black:#222222;
+$white:#ffffff;
+
 
 
 // Width of the content area
