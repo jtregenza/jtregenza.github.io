@@ -4,7 +4,7 @@
 
     <li class="blog-post">
   <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-  <div class="blog-image"><img src="{{post.image}}" class="blog-img"></a>
+  <div class="blog-image" style="background-color:{{post.color}};"><img src="{{post.image}}" class="blog-img"></a>
   </div>
   <div class="blog-excerpt"><h3>
     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>

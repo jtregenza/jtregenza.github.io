@@ -26,19 +26,10 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 $menuColor:#F44336;
 $headerColor:#37474F;
-$blogPostColor: $color;
+$blogPostColor: $red;
 $socialColor:#F44336;
 
-$blogPostColor:
-$color:$red, $pink, $purple, $darkpurple, $darkblue, $blue, $lightblue, $aqua, $teal, $green, $olive, $lightgreen, $lightyellow, $yellow, $gold, $orange, $brown, $grey, $steel, $black, $white;
-$repeat: 10  // How often you want the pattern to repeat.
-// Warning: a higher number outputs more CSS.
-
-@for $i from 1 through $repeat {
-    blog-post:nth-child(#{length($colors)}n+#{$i}) {
-        background: (nth($colors, random(length($colors)));
-    }
-};
+// $color:$red, $pink, $purple, $darkpurple, $darkblue, $blue, $lightblue, $aqua, $teal, $green, $olive, $lightgreen, $lightyellow, $yellow, $gold, $orange, $brown, $grey, $steel, $black, $white;
 
 $red:#F44336;
 $pink:#E91E63;
