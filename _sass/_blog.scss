@@ -171,5 +171,13 @@ a.outline-link {
     color:$blogPostColor;
     padding:0.2em 0.7em;
     margin-bottom:1.5em;
-    font-weight:light;
+    font-weight:light!important;
+}
+
+.blog-page {
+    .post-list{
+        width:80%;
+        justify-content:flex-end;
+    }
+
 }
