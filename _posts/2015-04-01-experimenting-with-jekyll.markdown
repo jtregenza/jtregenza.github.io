@@ -3,7 +3,7 @@ title:  "Experimenting With Jekyll"
 date:   2015-04-01 08:45:00
 categories: designer-travels
 image: /assets/img/potion.png
-color: #FF9800
+color: "#FF9800"
 layout: "post"
 ---
 

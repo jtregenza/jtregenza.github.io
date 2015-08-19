@@ -3,7 +3,7 @@ title:  "Choking on an elephant"
 date:   2015-03-21 09:00:00
 categories: designer-travels
 image: /assets/img/eaten-elephant.png
-color: #00BCD4
+color: "#00BCD4"
 layout: "post"
 ---
 

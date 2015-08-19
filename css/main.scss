@@ -26,7 +26,7 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 $menuColor:#F44336;
 $headerColor:#37474F;
-$blogPostColor: #F44336 ;
+$blogPostColor: {{post.color}} ;
 $socialColor:#F44336;
 
 
