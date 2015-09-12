@@ -18,6 +18,10 @@ sass:
     style: :compressed
 
 # Default Settings
+collections:
+  case_studies:
+    output: true
+    permalink: /case-studies/:title/
 
 defaults:
   -
@@ -34,3 +38,11 @@ defaults:
       type: "pages" # previously `post` in Jekyll 2.2.
     values:
       layout: "new_default"
+      author: Josh Tregenza
+        -
+    scope:
+      path: ""
+      type: case_studies
+    values:
+      layout: "new_default"
+

@@ -6,30 +6,13 @@
 
 
 // Our variables
-$base-font-family: "Open Sans", Helvetica, Arial, sans-serif;
-$header-font-family:"Lato", Helvetica, Arial, sans serif;
+$base-font-family: "Roboto", Helvetica, Arial, sans-serif;
+$header-font-family:"Futura PT", Helvetica, Arial, sans serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
-
-
-$primary-color:		#333;
-$text-color:       #111;
-$background-color: #eef2f3;
-$brand-color:      #2a7ae2;
-
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-$menuColor:#F44336;
-$headerColor:#37474F;
-$blogPostColor: #37474F;
-$socialColor:#F44336;
-
-// $color:$red, $pink, $purple, $darkpurple, $darkblue, $blue, $lightblue, $aqua, $teal, $green, $olive, $lightgreen, $lightyellow, $yellow, $gold, $orange, $brown, $grey, $steel, $black, $white;
 
 $red:#F44336;
 $pink:#E91E63;
@@ -52,6 +35,25 @@ $grey:#9E9E9E;
 $steel:#607D8B;
 $black:#222222;
 $white:#ffffff;
+$midnight:#384452;
+
+$primary-color:		#333;
+$text-color:       #111;
+$background-color: #eef2f3;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$menuColor:$red;
+$headerColor:#37474F;
+$blogPostColor: #37474F;
+$socialColor:$red;
+
+// $color:$red, $pink, $purple, $darkpurple, $darkblue, $blue, $lightblue, $aqua, $teal, $green, $olive, $lightgreen, $lightyellow, $yellow, $gold, $orange, $brown, $grey, $steel, $black, $white;
+
+
 
 
 
@@ -62,7 +64,8 @@ $white:#ffffff;
 // $on-laptop:        1005px;
 
 $on-bigmobile:		450px;
-$on-desk:			1200px;
+$on-desk:			1024px;
+$big-screen:1720px;
 
 
 
@@ -83,10 +86,11 @@ $on-desk:			1200px;
 
 /***Box Shadows***/
 @mixin bigShadow {
-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.12), 0px 4px 4px 0px rgba(0,0,0,0.24);
+box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 @mixin smallShadow {
-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
+box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+
 }
 
 /***Clearfix***/

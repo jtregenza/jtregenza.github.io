@@ -3,7 +3,7 @@ title:  "Designer, by way of Actor"
 date:   2015-03-21 09:00:00
 categories: designer-travels
 image: /assets/img/drama-masks.png
-color: "#009688"
+color: "#1ad980"
 layout: "post"
 ---
 
