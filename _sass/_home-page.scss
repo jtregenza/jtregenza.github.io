@@ -107,6 +107,8 @@ img[src="/assets/img/josh_portrait.png"] {
     display:flex;
     flex-direction:column;
     justify-content:center;
-
+    img{
+        width:10em;
+    }
 }
 
