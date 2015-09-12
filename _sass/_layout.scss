@@ -8,48 +8,22 @@
 body{
     font-size: $base-font-size;
     background-color:#FEFEFE;
+    display:flex;
+    flex-direction:column;
     @include transition(all 1s ease);
 }
 
 .site-header, body, footer {
     max-width: 100%;
-    margin: 0 auto;
 }
 
 
-.site-header {
-    margin-bottom:2em;
-        @include media-query($on-desk) {
-            margin-bottom: 0;
-    }   
-            img{
-                width:70%;
-                max-width:340px;
-                max-height:340px;
-                margin-left:auto;
-                margin-right:-1em;
-                margin-top:-8em;
-                margin-bottom:-3em;
-                float:right;
-        }
-    @include media-query($on-desk) {
-        max-width: 100%;
-        width: 100%;
-        img{
-            margin-left:auto;
-            margin-top:-1em;
-            margin-bottom:-16em;
-        }
-    }
 
-}
 
 
 body, footer{
     @include media-query($on-desk) {
         max-width: 100%;
-        margin: 0 auto;
-        display: block;
     }
 }
 
@@ -70,7 +44,7 @@ padding:0.2em 0.8em;
     &:first-child{
         padding-top:0.5em;
     }
-    @include media-query($on-bigmobile){
+    @include media-query($on-bigmobile) {
         margin:1em 2em;
         }
 
@@ -97,7 +71,7 @@ h1{
 
 h2 {
     font-size:1.6em;
-    font-weight:300;
+    text-align: center;
 }
 
 
@@ -135,96 +109,133 @@ a{
 }
 
 /******HEADING******/
-
-
 .site-header {
+        @include media-query($on-desk) {
+            margin-bottom: 0;
+    }   
+
+    @include media-query($on-desk) {
+        max-width: 100%;
+        width: 100%;
+    }
+
+}
+
+.site-header, footer {
     @include bigShadow;
-    background:$menuColor;
+    background:$midnight;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    .logo{
+    svg{
+        width:50%;
+        max-width: 90px;
+        padding:0.5em;
+        margin:0.5em;
+        margin-left:1em;
+
+        path, rect{
+            fill: lighten($midnight, 25%);
+
+        }
+    }
+}
 }
 .nav {
     display: flex;
     flex-direction: column;
+    margin-left: 15px;
     @include media-query($on-desk) {
         flex-direction: row;
-        max-width:61.250em;
     }
     list-style-type: none;
-    margin:0 auto;
     padding:0.5rem;
     li{
-        margin:0.5em 1.25em;
+        
          @include media-query($on-desk) {
         align-self:center;
     }
         a{
+        padding:0.5em 1.25em;
           color:#fafafa;
-          font-size:1.25em;
-          font-weight:300; 
+          font-size:1.55em;
+          font-weight:800;
+            letter-spacing: 2; 
         }
     }
         }
 
 /********FOOTER********/
 
+// footer {
+//     display:flex;
+//     flex-direction:column;
+//     justify-content:space-around;
+//     background-color:$pink;
+//     @include media-query($on-desk) {
+//         flex-direction:row;
+//     }
+// }
+
 footer {
+    flex-direction:column;
     @include media-query($on-desk) {
-        max-width:61.250em;
+        flex-direction:row;
     }
 }
 
 @include media-query($on-desk) {
     .footer_links {
-        width:1006px;
-        margin:0 auto;
     }
 }
 .footer {
-    margin:0 auto;
+
 }
 
 footer svg {
+    margin-top:1em;
 @include media-query($on-desk) {
     width:10%;
+    margin-top:0;
 }
-    height: 50px;
-
 }
 
 
 .socicon {
     font-family: 'socicon' !important;
-    a:hover{
-        background-color:$socialColor;
+    color:lighten($midnight, 30%);
+    transition:all 0.3s ease-in-out;
+    &:hover{
+        color:#1ad980;
         border-raidus:100%;
     }
 }
 
 .social-media-things {
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
     align-items:center;
     text-align:center;
-    svg {
-        margin:0 auto;
-        @include media-query($on-desk) {
-            margin: 0 ;
-        margin-right:auto;
-    }
-    }
+    margin:0;
     @include media-query($on-desk) {
         flex-direction: row;
+        padding:0.5em;
     }
     list-style-type: none;
-    margin:0 auto;
-    padding:1.25rem;
     li{
         margin:0.5em 1.25em;
         a{
-          font-size:1.25em;
+          font-size:2.25em;
         }
     }
         }
-
+.bottom-of-the-barrel {
+    font-family:$header-font-family;
+    font-weight: 800;
+    font-size:1.5em;
+    color:lighten($midnight, 5%);
+}
 
 
 /*****ANIMATION******/
@@ -290,12 +301,4 @@ footer svg {
 
 
 /*** TESTING CODE ****/
-article   {
-    @include media-query($on-desk) {
-        max-width:61.250em;
-        margin: 0 auto;
-        display: block;
-        padding: 0 0.8em;
-    } 
-}
 

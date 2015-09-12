@@ -5,21 +5,24 @@ title: about
 
 
 <article class="about">
+    <div class="fun-col">
+      <img src="/assets/img/josh_portrait.png" alt="image of some low poly stuff"/>
+    </div>
   <section class="about-josh">
     <h1> I am an autodidact designer that is curious in the interactions between people and how design plays a part in that communication. I code and build sites for users, alongside companies. </h1>
     <p>I try and learn constantly and grow my skillset and my understanding. I am currently taking courses into development.  I love making pixel and low poly art and building with lego. This site showcases some of my work and I detail my adventures and insights in the world and in my projects. 
 
     I am currently looking for the opportunity to design in the United States. If you would like to get in touch you can reach me on twitter <a href="http://twitter.com/joshtregenza">@joshtregenza</a> or email at <a href="mailto:josh@joshtregenza.com">josh@joshtregenza.com</a></p>
   </section>
-  <section class="home-writings">
-    <div class="home-writing-posts">
-      <h2>I write, therefore, you [can] read</h2>
-      {% include blog.html %}
-      <a href="/blog/" class="home-blog-link"><h2>discover more of my writing</h2></a>
-    </div>
-    <div class="fun-col">
-      <img src="/assets/img/josh_portrait.png" alt="image of some low poly stuff"/>
-    </div>
+
+  <section class="home--port--blog">
+
+  <div class="home--blog">
+  {% include blog-home.html %}
+  </div>
+    <div class="home--port">
+{% include case-studies.html %}
+  </div>
   </section>
 </article>
 

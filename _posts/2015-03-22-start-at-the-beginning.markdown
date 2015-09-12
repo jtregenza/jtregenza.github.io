@@ -6,10 +6,11 @@ image: /assets/img/mad-hatters-hat.png
 color:	"#9C27B0"
 layout: "post"
 ---
-I think I've changed my site design three times, before even showing it to others. This is the fourth.
+I think I've changed my site design three times, before even showing it to others. This is the fourth.The previous three were frankensteins of themes I had found on wordpress.
 
-The previous three were frankensteins of themes I had found on wordpress. 
-In wordpress is where I started building websites. Outside of wordpress I've made websites in a customer Cold Fusion CMS. Never static. This is site is static. I'm buidling this site from complete scratch. I'm doing so to learn humility as a designer, to practice my craft, to learn the right skills and hopefully build my development skills enough to evolve this site into something I'm proud of.
+Wordpress is where I started building websites.
+
+Outside of wordpress I've made websites in a customer Cold Fusion CMS. Never static. This is site is static. I'm buidling this site from complete scratch. I'm doing so to learn humility as a designer, to practice my craft, to learn the right skills and hopefully build my development skills enough to evolve this site into something I'm proud of.
 
 At the moment the site has images missing and text not perfect. This isn't the final look.
 
