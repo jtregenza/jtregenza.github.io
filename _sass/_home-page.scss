@@ -112,6 +112,7 @@ img[src="/assets/img/josh_portrait.png"] {
     img{
         width:10em;
         border:8px solid lighten($pink, 25%);
+        @include border-radius(100%);
 
     }
     h3, p {
