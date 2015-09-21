@@ -9,7 +9,9 @@
 /** NEW PORTFOLIO AREA**/
 .port-area {
   width:100%;
-  display:flex;
+  // display:flex;
+  @include flexbox;
+  -webkit-flex-direction:column;
   flex-direction:column;
   margin:0 auto;
 }
@@ -39,10 +41,13 @@
 }
 
 .shots{
-    display:flex;
+    // display:flex;
+    @include flexbox;
+    -webkit-flex-direction: column;
     flex-direction: column;
     margin-left:0;
         @include media-query($on-desk) {
+          -webkit-flex-direction: row;
         flex-direction: row;
         }
     li{

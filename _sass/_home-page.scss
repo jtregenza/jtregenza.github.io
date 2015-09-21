@@ -13,7 +13,9 @@ section   {
 }
 
 .about {
-    display:flex;
+    // display:flex;
+    @include flexbox;
+    -webkit-flex-direction:column;
         flex-direction:column;
 }
 
@@ -22,9 +24,13 @@ section   {
 
 
 .about-josh {
-    display:flex;
+    // display:flex;
+    @include flexbox;
+    -webkit-flex-direction:column;
     flex-direction:column;
+    -webkit-justify-content:center;
     justify-content:center;
+    -webkit-align-items:center;
     align-items:center;
 //     @include media-query($on-desk) {
 //     margin:0 20%;
@@ -56,11 +62,15 @@ img[src="/assets/img/josh_portrait.png"] {
 }
 
 .home--port--blog {
-    display:flex;
+    // display:flex;
+    @include flexbox;
+    -webkit-flex-direction:column;
     flex-direction:column;
+    -webkit-justify-content:space-between;
     justify-content:space-between;
         @include media-query($on-desk) {
-        flex-direction:row;
+            -webkit-flex-direction:row;
+            flex-direction:row;
     }
 
 
@@ -83,6 +93,7 @@ img[src="/assets/img/josh_portrait.png"] {
     width:100%;
     max-width:300px;
     text-align:center;
+    -webkit-align-self:center;
     align-self:center;
     @include media-query($on-desk) {
     width:20%;
@@ -98,15 +109,31 @@ img[src="/assets/img/josh_portrait.png"] {
 }
 
 .case-study {
-    display:flex;
+    // display:flex;
+    @include flexbox;
+    -webkit-flex-wrap:wrap;
     flex-wrap:wrap;
 }
 
 
 .coming-soon {
-    display:flex;
+    // display:flex;
+    @include flexbox;
+    -webkit-flex-direction:column;
     flex-direction:column;
+    -webkit-justify-content:center;
     justify-content:center;
+    -webkit-align-items:center;
+    align-items:center;
+    height:100%;
+    img{
+        width:10em;
+        border:8px solid lighten($pink, 25%);
+        @include border-radius(100%);
 
+    }
+    h3, p {
+        width:70%;
+    }
 }
 
