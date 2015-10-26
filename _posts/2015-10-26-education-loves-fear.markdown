@@ -1,5 +1,5 @@
 ---
-title:  "Education Loves Fear"
+title:  "...whilst education loves fear"
 date:   2015-10-26 17:00:00
 categories: food
 image: /assets/img/Books-apples-websites.png
@@ -9,7 +9,7 @@ layout: "post"
 
 We all fear the unknown. The journey to dispelling that fear and knowing the unknown is as noble a pursuit as it is a descent into passionate madness that will consume your being. Educating yourself to put a stop to the fear can be more trouble than it’s worth. As I found out, looking through my Instagram to when I last posted one of my art pieces.
 
-//Image of dropbox
+<img src="https://dl-web.dropbox.com/get/File%2023-10-2015%2C%2010%2000%2030%20AM.jpeg?_subject_uid=38229049&w=AAAskl-EKyTYEx7T_3RZi1pZy7Ek0nBZIQUrzg_I5rMrkA" style="width:300px;" />
 
 Thirteen Weeks ago, It can feel like an eternity.  Making that desert filled me with such joy, passion, utter elation from start to finish. What happened over 3 months ago that caused me to stop doing something I love?
 
@@ -25,8 +25,8 @@ So as the first course block finished up I gave my adieu and stopped the course.
 
 Not that I hold it against the course itself, I’m just not the lucky student to get anything out of the education system.
 
-“… There’s always a few good teachers. Odds are you won’t get one of them. There’s always a few well-meaning programs. Odds are you won’t find it. And there’s always that one student that figures out how to get what they need out of the experience. Odds are you are not that student.” 
-- Mike Monterio - School is for Suckers
+<blockquote>“… There’s always a few good teachers. Odds are you won’t get one of them. There’s always a few well-meaning programs. Odds are you won’t find it. And there’s always that one student that figures out how to get what they need out of the experience. Odds are you are not that student.”</blockquote>
+- Mike Monterio - [School is for Suckers](https://deardesignstudent.com/school-is-for-suckers-db677b6481c3#.v00qetecs)
 
 It’s likely that I’m not even a good student to begin with. I love learning but traditional education has just never been at my speed. In highschool I was only ever good at Drama, a class where I was free to do my own learning and creating performances, I even got a shining medal for being the best in my year.
 
