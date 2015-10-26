@@ -9,7 +9,7 @@ layout: "post"
 
 We all fear the unknown. The journey to dispelling that fear and knowing the unknown is as noble a pursuit as it is a descent into passionate madness that will consume your being. Educating yourself to put a stop to the fear can be more trouble than it’s worth. As I found out, looking through my Instagram to when I last posted one of my art pieces.
 
-<img src="/assets/img/thirteen-weeks.png" style="width:300px; text-align:left;" />
+<img src="../assets/img/thirteen-weeks.png" style="width:300px; text-align:left;" />
 
 Thirteen Weeks ago, It can feel like an eternity.  Making that desert filled me with such joy, passion, utter elation from start to finish. What happened over 3 months ago that caused me to stop doing something I love?
 
