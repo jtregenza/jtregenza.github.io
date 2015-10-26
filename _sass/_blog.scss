@@ -76,6 +76,11 @@
     padding:0 1em;
     text-align:justify;
 }
+img{
+    @include flexbox;
+    margin:0 auto;
+
+}
 ul{
     margin-left:0px;
 }
