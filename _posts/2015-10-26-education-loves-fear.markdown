@@ -1,5 +1,5 @@
 ---
-title:  "Misery Loves Company whilst Education Loves Fear"
+title:  "Education Loves Fear"
 date:   2015-03-26 17:00:00
 categories: food
 image: /assets/img/Books-apples-websites.png
