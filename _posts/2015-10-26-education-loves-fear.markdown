@@ -1,6 +1,6 @@
 ---
 title:  "Education Loves Fear"
-date:   2015-03-26 17:00:00
+date:   2015-10-26 17:00:00
 categories: food
 image: /assets/img/Books-apples-websites.png
 color: "#F44336"
