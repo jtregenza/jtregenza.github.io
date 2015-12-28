@@ -6,11 +6,13 @@
 
 
 // Our variables
+// Our variables
 $base-font-family: "Roboto", Helvetica, Arial, sans-serif;
-$header-font-family:"Futura PT", Helvetica, Arial, sans serif;
+$header-font-family:"Roboto", Helvetica, Arial, sans serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
+$base-font-weight: normal;
 
 $spacing-unit:     30px;
 
@@ -37,10 +39,10 @@ $black:#222222;
 $white:#fafafa;
 $midnight:#384452;
 
-$primary-color:		#333;
-$text-color:       #111;
-$background-color: #eef2f3;
-$brand-color:      #2a7ae2;
+$primary-color:		$red;
+$text-color:       $midnight;
+$background-color: $white;
+$brand-color:      $red;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -51,80 +53,19 @@ $headerColor:#37474F;
 $blogPostColor: #37474F;
 $socialColor:$red;
 
-// $color:$red, $pink, $purple, $darkpurple, $darkblue, $blue, $lightblue, $aqua, $teal, $green, $olive, $lightgreen, $lightyellow, $yellow, $gold, $orange, $brown, $grey, $steel, $black, $white;
-
-
-
-
-
 // Width of the content area
+$content-width:    940px;
 
-
-// $on-palm:          450px;
-// $on-laptop:        1005px;
-
-$on-bigmobile:		450px;
-$on-desk:			1024px;
-$big-screen:1720px;
+$on-palm:          600px;
+$on-laptop:        800px;
 
 
 
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
+
+/****** MIXINS ********/
 
 
-@mixin media-query($device) {
-    @media screen and (min-width: $device) {
-        @content;
-    }
-}
-
-/***Box Shadows***/
-@mixin bigShadow {
-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-}
-@mixin smallShadow {
-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
-
-}
-
-/***Clearfix***/
-@mixin clearfix() {
-    &:before,
-    &:after {
-        content: "";
-        display: table;
-    }
-    &:after {
-        clear: both;
-    }
-}
-
-/***Round Corners***/
-@mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-  border-radius: $radius;
-  background-clip: padding-box;  /* stops bg color from leaking outside the border: */
-}
-
-/***Font Size***/
-@function calculateRem($size) {
-  $remSize: $size / 16px;
-  @return $remSize * 1rem;
-}
-
-@mixin font-size($size) {
-  font-size: $size;
-  font-size: calculateRem($size);
-}
-
-/***FLEXBOX***/
-
+/**FLEXBOX**/
 @mixin flexbox {
   display: -webkit-box;
   display: -moz-box;
@@ -133,51 +74,113 @@ box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0
   display: flex;
 }
 
-/***Animations***/
-@mixin keyframes($animation-name) {
-  @-webkit-keyframes $animation-name {
-    @content;
-  }
-  @-moz-keyframes $animation-name {
-    @content;
-  }  
-  @-ms-keyframes $animation-name {
-    @content;
-  }
-  @-o-keyframes $animation-name {
-    @content;
-  }  
-  @keyframes $animation-name {
-    @content;
+@mixin flex-direction($val) {
+  -webkit-flex-direction: $val;
+  -ms-flex-direction: $val;
+  -moz-flex-direction: $val;
+  flex-direction: $val;
+
+}
+
+@mixin align-items($aVal) {
+  -webkit-align-items: $aVal;
+  -ms-align-items: $aVal;
+  -moz-align-items: $aVal;
+  align-items: $aVal;
+
+}
+
+@mixin justify-content($bVal){
+  -webkit-justify-content: $bVal;
+  -ms-justify-content: $bVal;
+  -mozjustify-content: $bVal;
+  justify-content: $bVal;
+
+}
+
+@mixin order($cVal) {
+  -webkit-box-ordinal-group: $cVal;  
+  -moz-box-ordinal-group: $cVal;     
+  -ms-flex-order: $cVal;     
+  -webkit-order: $cVal;  
+  order: $cVal;
+}
+
+@mixin align-self($dVal) {
+  -webkit-align-self: $dVal;
+  -ms-align-self: $dVal;
+  -moz-align-self: $dVal;
+  align-self: $dVal;
+
+}
+
+@mixin flex-wrap($eVal) {
+  -webkit-flex-wrap: $eVal;
+  -ms-flex-wrap: $eVal;
+  -moz-flex-wrap: $eVal;
+  flex-wrap: $eVal;
+}
+
+
+
+
+/*** SHADOWS ***/
+
+@mixin bigShadow {
+box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.12), 0px 4px 4px 0px rgba(0,0,0,0.24);
+}
+@mixin smallShadow {
+box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.12), 0px 2px 2px 0px rgba(0,0,0,0.24);
+}
+@mixin linkShadow {
+box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.12), 0px 8px 8px 0px rgba(0,0,0,0.24);
+}
+
+
+
+/*** ANIMATION ***/
+
+@mixin menu-animation {
+  transition: margin-right .8s ease-in-out;
+    &:hover{
+      margin-right:2%;
   }
 }
 
-@mixin animation($str) {
-  -webkit-animation: #{$str};
-  -moz-animation: #{$str};
-  -ms-animation: #{$str};
-  -o-animation: #{$str};
-  animation: #{$str};      
+
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
 }
 
-/***Transitions***/
-@mixin transition($args) {
-  -webkit-transition: $args;
-  -moz-transition: $args;
-  -ms-transition: $args;
-  -o-transition: $args;
-  transition: $args;
-}
+
+
+
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,500,100|Press+Start+2P);
+
 @import
         "base",
         "layout",
-        "syntax-highlighting",
-        "blog",
-        "portfolio",
         "home-page",
-        "keyframes",
-        "animations"
+        "mixins",
+        "blog",
+        "art",
+        "variables",
+        "animations",
+        "syntax-highlighting"
+
 ;

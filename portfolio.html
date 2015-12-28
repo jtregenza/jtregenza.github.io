@@ -1,31 +1,26 @@
 ---
-layout: new_default
-title: portfolio
+layout: page
+title: Portfolio
 permalink: /portfolio/
 ---
 
-<article class="portfolio">
-  <h1>portfolio</h1>
-  <p>
-  	Congrats, you made it to this page, you must have taken a larger interest in my skills. You can see my most recent pixel art here as well as in progress updates of what I'm working on. You can also email me at <a href="mailto:josh@joshtregenza.com">josh@joshtregenza.com</a> and I'll answer any and all questions you have.
-  </p>
 
 
-  <div class="port-area">
-    <h3 class="section-title">Pixel Art</h3>
-    <i>my whisperings to the pixels </i>
-    <ul class="shots pixel-art"></ul>
-  </div>
-
-  <div class="port-area">
-    <h3 class="section-title">3D Work</h3>
-    <i>an exploration in 3D </i>
-    <ul class="shots low-poly"></ul>
-  </div>
-
-</article>
 
 
-<!---Script Area -->
-<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-<script src="/assets/scripts/jribbble.js"></script>
+
+
+
+
+      <div class="home-art">
+        <h3>Some Stuff I Make</h3>
+        <div class="heading-line"></div>
+        <ul class="art-list">
+        {% for page in site.art %}
+          <li>
+            <a href="{{ page.url | prepend: site.baseurl }}"><img src="{{ page.image }}" alt="{{page.title}} | Josh Tregenza">
+            </a>
+          </li>
+        {% endfor %}
+        </ul>
+      </div>

@@ -2,17 +2,16 @@
 title:  "Designer, by way of Actor"
 date:   2015-03-21 09:00:00
 categories: designer-travels
-image: /assets/img/drama-masks.png
-color: "#1ad980"
+image: /assets/img/blog/pixel-icons/drama-masks.png
 layout: "post"
 ---
 
-I'll come right out and say it, I learned a damn lot about being a designer from being an actor.
+I'll come right out and say it, I learnt a damn lot about being a designer from being an actor.
 
 
-I'm not a school trained designer, I've learned through trial and error and pushing myself time and time again. I like to think I'm becoming better at it every day.
+I'm not a school trained designer, I've learnt through trial and error and pushing myself time and time again. I like to think I'm becoming better at it everyday.
 
-For most designers, selling the work may be the problem and I was no different. At least until I started feeling a bit more sure-footed in my designs and craft. The selling of the design though was never an issue and I thank the likes of Sophocles and Shakespeare for it.
+For most designers, selling the work may be the problem and I was no different. At least until I started feeling a bit more sure footed in my designs and craft. The selling of the design though was never an issue and I thank the likes of Sophocles and Shakespeare for it.
 
 <blockquote>This device is best explored by actor Josh Tregenza, who transforms himself into the cheeky Guard and the elderly Teiresias with chameleon-like changeability</blockquote>
 

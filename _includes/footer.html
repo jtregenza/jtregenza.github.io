@@ -1,14 +1,45 @@
-<footer>
-<a href="/" class="logo">{% include designer_svg.html %}</a>
- <span class="bottom-of-the-barrel">IN THE ERA VULGARIS</span>
-  <ul class="social-media-things">
-  <li><a href="https://twitter.com/JoshTregenza" target="_blank" ><span class="socicon">a</span></a></li><!-- Twitter-->
-   <li><a href="https://instagram.com/josh_tregenza/" target="_blank"><span class="socicon">x</span></a></li><!-- Instagram-->
-   <li><a href="https://github.com/jtregenza" target="_blank" ><span class="socicon">Q</span></a></li><!-- Github-->
-   <li><a href="https://dribbble.com/JTreg" target="_blank" ><span class="socicon">D</span></a></li><!-- Dribbble-->
-   <!--<li><a href="#twitch"><span class="socicon">{</span></a></li>
-   		<li><a href="#steam"><span class="socicon">X</span></a></li>-->
-   		</ul>
-    <!--If you are looking for my facebook, I really only use it for Messenger, but you can find it by searching Josh Tregenza.-->
+<div class="footer-line"></div>
+<footer class="site-footer">
+
+  <div class="wrapper">
+  <div class="footer-col footer-col-1">
+        <span class="logo jt-logo footer">{% include jt-logo.svg %}</span>
+      </div>
+
+      <div class="footer-col footer-col-1">
+        <p class="bottom-of-the-barrel">IN THE ERA VULGARIS</p>
+      </div>
+
+      <div class="footer-col footer-col-1">
+          <ul class="social-media-list">
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+
+          {% if site.instagram_username %}
+          <li>
+            {% include icon-instagram.html username=site.instagram_username %}
+          </li>
+          {% endif %}
+
+          {% if site.github_username %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+
+          {% if site.dribbble_username %}
+          <li>
+            {% include icon-dribbble.html username=site.dribbble_username %}
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+
+<!--   </div> -->
+
 </footer>
 

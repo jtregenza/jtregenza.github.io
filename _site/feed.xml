@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Josh Tregenza | Designer</title>
+    <description>I build things with people just like you. Talk to me about web design, pixel art and low poly art.
+</description>
+    <link>http://joshtregenza.com/</link>
+    <atom:link href="http://joshtregenza.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 28 Dec 2015 13:33:51 +1000</pubDate>
+    <lastBuildDate>Mon, 28 Dec 2015 13:33:51 +1000</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>...whilst education loves fear</title>
+        <description>&lt;p&gt;We all fear the unknown. The journey to dispelling that fear and knowing the unknown is as noble a pursuit as it is a descent into passionate madness that will consume your being. Educating yourself to put a stop to the fear can be more trouble than it’s worth. As I found out, looking through my Instagram to when I last posted one of my art pieces.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../assets/img/thirteen-weeks.jpeg&quot; style=&quot;width:300px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Thirteen Weeks ago, It can feel like an eternity.  Making that desert filled me with such joy, passion, utter elation from start to finish. What happened over 3 months ago that caused me to stop doing something I love?&lt;/p&gt;
+
+&lt;p&gt;I gave into my fears and jumped head first into a course for graphic design. Like a goddamn fool.&lt;/p&gt;
+
+&lt;p&gt;My life went on hold for those three months, my demeanor went from a wry grin to a scowling grimace. My stress went up and I learned nothing for it.&lt;/p&gt;
+
+&lt;p&gt;I hadn’t made anything that could be used in the real world. Worst still, as the months went on, it seemed this course was becoming more and more misaligned with my goal of immigrating to America.&lt;/p&gt;
+
+&lt;p&gt;Which brings me back to fear. I got into this course out of the fear that I might not know enough. That though I’ve been working as a designer for three years now, in the eyes of the American government I have nothing. A moment of weakness in myself. One that cost me my time, the most important commodity.&lt;/p&gt;
+
+&lt;p&gt;So as the first course block finished up I gave my adieu and stopped the course. Using my time to get out there and do what I was doing, building things, learning in my own way was going to be far better to my goals that getting the piece of paper from the course.&lt;/p&gt;
+
+&lt;p&gt;Not that I hold it against the course itself, I’m just not the lucky student to get anything out of the education system.&lt;/p&gt;
+
+&lt;blockquote&gt;“… There’s always a few good teachers. Odds are you won’t get one of them. There’s always a few well-meaning programs. Odds are you won’t find it. And there’s always that one student that figures out how to get what they need out of the experience. Odds are you are not that student.”&lt;/blockquote&gt;
+&lt;p&gt;Mike Monterio - &lt;a href=&quot;https://deardesignstudent.com/school-is-for-suckers-db677b6481c3#.v00qetecs&quot;&gt;School is for Suckers&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s likely that I’m not even a good student to begin with. I love learning but traditional education has just never been at my speed. In highschool I was only ever good at Drama, a class where I was free to do my own learning and creating performances, I even got a shining medal for being the best in my year.&lt;/p&gt;
+
+&lt;p&gt;University wasn’t any different for me, I took an accounting course and it was could best be equated to a hammering nails into the ground with an open wound in my skull (Thank god you can drink at 18 in Australia).&lt;/p&gt;
+
+&lt;p&gt;Taking on tertiary education is submitting yourself to the miasma of outdated methods, grading that is skewed to fit into a bell curve graphs and unrealistic workflows and steps to accomplish a goal that would never exist in the real world. As a student you put blind faith into a system and an allegiance to an educator that might not know what they are talking about.&lt;/p&gt;
+
+&lt;p&gt;As Monterio says, you might be the lucky one that gets the great teacher, in the great course. You could get struck by lightning while clicking a banner ad too while you are achieving the unlikely.&lt;/p&gt;
+
+&lt;p&gt;The unwillingness to cater to those who don’t learn the best in those situations is fine, schools are businesses and they need to make money. That also means they want quantity before quality.&lt;/p&gt;
+
+&lt;p&gt;Business authors like Jim Collins talk about “Getting the right people on the bus and getting the wrongs off as quickly as possible”. This should hold true for schools. Educating students about their options on how best to learn, whether it be through university, getting out into the workforce or taking online video courses like lynda or treehouse, can pay dividends into the quality of student that goes through their doors.&lt;/p&gt;
+
+&lt;p&gt;When I was in highschool, I had no clue that I would become a designer, five years ago I was a filmmaker filming models at fashion weeks. The unknown career that would change my life was hidden from me because no one told me that it was a thing, the closest I got to design was doing watercolors of bugs and video game pottery.&lt;/p&gt;
+
+&lt;p&gt;For me, choosing to take tertiary education only hinders my goals and my passion. For others, like my girlfriend, they excel in the system (Hell she is going to become a teacher). No path is the wrong path, if it gets you to what makes you most happy, taking it upon yourself to find out what you should do is key though.&lt;/p&gt;
+
+&lt;p&gt;Instead of binge watching another season of Breaking Bad, after a long day at an arts degree, take a free trial of an online course and try and explore an option you haven’t considered. An accountant can become a designer trying to get to America, a history major can become an actor performing their own one-man show, a linguist can become a teacher. Don’t let the fear force you into making a decision that you have to make a living off of. You have nothing to lose and everything to gain.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 27 Oct 2015 03:00:00 +1000</pubDate>
+        <link>http://joshtregenza.com/education-loves-fear</link>
+        <guid isPermaLink="true">http://joshtregenza.com/education-loves-fear</guid>
+        
+        
+        <category>food</category>
+        
+      </item>
+    
+      <item>
+        <title>Experimenting With Jekyll</title>
+        <description>&lt;p&gt;When I decided to renew my skill set and improve them, I wanted to make sure I rebuilt from anew. I wanted to make a new site that wasn’t built in a CMS.&lt;/p&gt;
+
+&lt;p&gt;As familiar as I am with Wordpress and other CMS systems, I would learn a lot more. I wanted to challenge myself as a designer learning development.&lt;/p&gt;
+
+&lt;p&gt;I wanted to as  learn much more and please my appetite for personal growth. I wanted to try my hand at putting together a static site that used a static site generator.&lt;/p&gt;
+
+&lt;p&gt;Utilising a static site generator, I wouldn’t need to deal with a database. No need to optimise the CMS to perform the best it could. The static site would still be light weight and efficient for the audience.&lt;/p&gt;
+
+&lt;p&gt;A static site generator would also allow me to modulate my site. I wouldn’t have to copy and paste bits of html into each page of my site. This became clear when it comes to blogging. A static site isn’t blog friendly and it is a cesspool of human error waiting to happen. Making small changes to a static site could take much more time trying to change each page.&lt;/p&gt;
+
+&lt;p&gt;I knew what I would be doing with a static site generator so I started by creating a basic static site. Then built out the home page, portfolio and a couple of blog posts from old builds of my site.&lt;/p&gt;
+
+&lt;p&gt;Once I had the site together, I got to work on learning what I would need to do to install a site generator and which one to choose.&lt;/p&gt;
+
+&lt;p&gt;There are a lot of static site generators (take a look at &lt;a href=&quot;https://www.staticgen.com/&quot; target=&quot;_blank&quot;&gt;StaticGen.com&lt;/a&gt; and you’ll see just how many) and through a bit of research I had taken that list to make a choice in either Middleman and Jekyll (I bet you can’t guess which one I chose…). From what I’ve read, I kind of wanted to go with Middleman but it looked a lot more daunting. Unlike Jekyll, it needed a greater amount of command line knowledge than I had.&lt;/p&gt;
+
+&lt;p&gt;Don’t get me wrong, I want to learn the command line. I am in fact learning more and more each day as I learn git. At this stage I wanted to get the site up and start blogging about my journey (Just like I am right now!). I needed to make my initial decision based on this.  I got to work at learning the basics of the command line and how to setup  Jekyll.&lt;/p&gt;
+
+&lt;p&gt;This was a bit laborious, most command line training is dry. The Jekyll documentation looks to be for an audience that has a bit more dev knowledge than I have. I felt a bit lost, with more questions that answers.&lt;/p&gt;
+
+&lt;p&gt;A bit more searching and I came across this &lt;a href=&quot;https://youtu.be/iWowJBRMtpc&quot; target=&quot;_blank&quot;&gt;youtube video&lt;/a&gt; that gave me the confidence to get the ball rolling.  To learn new things, I’ll either throw myself headfirst into it and tinker. In this case, when the task is a little more complex I needed someone to walk me through it.&lt;/p&gt;
+
+&lt;p&gt;With the most daunting part of this little project out of the way, I had Jekyll set up and I had a working knowledge of how to get around it. I got to work in cutting up my code to put it into module and getting my blog posts into markdown.&lt;/p&gt;
+
+&lt;p&gt;The benefits of blogging and modulated parts to the site weren’t the only things that piqued my interests. Having the infrastructure in place to be able to write Sass, making styling easier to read, interested me. I had learnt about Sass a few months ago but didn’t have the infrastructure in place to use it. Jekyll gave me that ability.&lt;/p&gt;
+
+&lt;p&gt;I had chopped up my site and put it into Jekyll. I even re-coded the blog area so that it played with how Jekyll looks at the blog posts. With that, I had finished up the first phase of my site.&lt;/p&gt;
+
+&lt;p&gt;At the end of it, I can’t imagine using a static site generator for a client project. This was a neat little project for me. It gave me the chance to learn lots and puts some serious thought into my site.&lt;/p&gt;
+
+&lt;p&gt;As I said early, I am learning about git and my next step with the site is to put it onto Github. I want to make the deployment of site changes and blog posts that much more simple for me.&lt;/p&gt;
+
+&lt;p&gt;For the time being my site’s code is up on my Github as I learn all the ins and outs of it. If you wanted to see what I’ve done with my site, feel free to check it out &lt;a href=&quot;https://github.com/jtregenza/jtregenza.github.io&quot; tagert=&quot;_blank&quot;&gt;here&lt;/a&gt;. If you have an suggestions for my site, let me know through Github or send me an &lt;a href=&quot;mailto:&quot; target=&quot;_blank&quot;&gt;email&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Apr 2015 18:45:00 +1000</pubDate>
+        <link>http://joshtregenza.com/experimenting-with-jekyll</link>
+        <guid isPermaLink="true">http://joshtregenza.com/experimenting-with-jekyll</guid>
+        
+        
+        <category>designer-travels</category>
+        
+      </item>
+    
+      <item>
+        <title>Start At the Beginning</title>
+        <description>&lt;p&gt;I think I’ve changed my site design three times, before even showing it to others. This is the fourth.&lt;/p&gt;
+
+&lt;p&gt;The previous three were frankensteins of themes I had found on wordpress. 
+In wordpress is where I started building websites. Outside of wordpress I’ve made websites in a customer Cold Fusion CMS. Never static. This is site is static. I’m buidling this site from complete scratch. I’m doing so to learn humility as a designer, to practice my craft, to learn the right skills and hopefully build my development skills enough to evolve this site into something I’m proud of.&lt;/p&gt;
+
+&lt;p&gt;At the moment the site has images missing and text not perfect. This isn’t the final look.&lt;/p&gt;
+
+&lt;p&gt;As I said I’m learning and relearning skills that will, hopefully, make me a better designer. A designer that can do great good.&lt;/p&gt;
+
+&lt;p&gt;I’m also using the site as an excuse to make more isometric pixel art. I’ve taken a great interest in it since discovering eboy. I love their pixelramas, maybe in time I can do soemthing similar.&lt;/p&gt;
+
+&lt;p&gt;As I build this site, tweak it, make it better, I will be writing more and growing as a designer.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 22 Mar 2015 19:00:00 +1000</pubDate>
+        <link>http://joshtregenza.com/start-at-the-beginning</link>
+        <guid isPermaLink="true">http://joshtregenza.com/start-at-the-beginning</guid>
+        
+        
+        <category>designer-travels</category>
+        
+      </item>
+    
+      <item>
+        <title>Designer, by way of Actor</title>
+        <description>&lt;p&gt;I’ll come right out and say it, I learnt a damn lot about being a designer from being an actor.&lt;/p&gt;
+
+&lt;p&gt;I’m not a school trained designer, I’ve learnt through trial and error and pushing myself time and time again. I like to think I’m becoming better at it everyday.&lt;/p&gt;
+
+&lt;p&gt;For most designers, selling the work may be the problem and I was no different. At least until I started feeling a bit more sure footed in my designs and craft. The selling of the design though was never an issue and I thank the likes of Sophocles and Shakespeare for it.&lt;/p&gt;
+
+&lt;blockquote&gt;This device is best explored by actor Josh Tregenza, who transforms himself into the cheeky Guard and the elderly Teiresias with chameleon-like changeability&lt;/blockquote&gt;
+
+&lt;p&gt;Acting has always been about crafting a particular story. That story chosen by the director.  The story is not intended for only the director and I, but for the audience. It is presented to the audience after the we agree that our performance (our story) is good enough.&lt;/p&gt;
+
+&lt;p&gt;This is a story that if you swap act with design and director with client then it applies to designers just the same.&lt;/p&gt;
+
+&lt;p&gt;Both Actor and Designer start out with a general idea of what the work entails. They then need to work with the director/client to get a better understanding of what they want.  The actor/designer needs to interpret what they have said and transform the work into the best result.&lt;/p&gt;
+
+&lt;p&gt;Directors and clients are never always right and in both cases I have questioned and argued with each. I’ve always wanted to come to an understanding of what is best for the audience.&lt;/p&gt;
+
+&lt;p&gt;As actors need techies and makeup artists,  designers need developers and researchers. Everyone doing their part to pull together great work.&lt;/p&gt;
+
+&lt;p&gt;I started off as an actor, I became a filmmaker, photographer and then designer. I thought I was  getting further away from where I started. I never figured I’d end up looking at my beginning and finding the similarities that I have.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 21 Mar 2015 19:00:00 +1000</pubDate>
+        <link>http://joshtregenza.com/designer-by-way-of-actor</link>
+        <guid isPermaLink="true">http://joshtregenza.com/designer-by-way-of-actor</guid>
+        
+        
+        <category>designer-travels</category>
+        
+      </item>
+    
+      <item>
+        <title>Choking on an elephant</title>
+        <description>&lt;p&gt;I’m in the throes identity crisis, as a person and as a designer. I’m not discouraged by this, self-exploration can lead to one’s own betterment.&lt;/p&gt;
+
+&lt;p&gt;As I go through, I look back on the decisions I’ve made, what I am thankful for, the mistakes I’ve made and how with to be better.&lt;/p&gt;
+
+&lt;p&gt;This particular tale has to do with knowing my limits. In the not too distant past, I have tried to land the big job, the big money, even if I didn’t know how I was going to pull it off. Fortune favours the bold, right?&lt;/p&gt;
+
+&lt;p&gt;Time and time again, I land the big one, the great big elephant then I would pat myself on the back. I would feel great about how I was able to beat the odds to land the job, stroking my infantile ego.&lt;/p&gt;
+
+&lt;p&gt;I was a bold and brash man, I wouldn’t get down to business as soon as I had won it, no planning, nothing. I let it stay in the room and wouldn’t touch it until deadlines loomed. By that time, I would try to eat the elephant, one bite at a time but I had too much to do in  little time and  the stress and anxiety would set in. I would start to spiral into a panic. I was choking on the elephant, far too often.&lt;/p&gt;
+
+&lt;p&gt;I didn’t catch myself doing it until it’s too late. When I do, I got too caught up in fixing the problem that I had created.&lt;/p&gt;
+
+&lt;p&gt;If I did solve it, my hubris gets in the way of any real action to better myself,  I pat myself on the back for getting through it. I felt more or less unscathed, and continued the cycle.&lt;/p&gt;
+
+&lt;p&gt;I’m not sure if it was a depreciating self-worth or a blow to my ego when I received the much needed peer review.  I’ve started to look at my behavior and my actions. I’m seeing how they can be more destructive than anything else.&lt;/p&gt;
+
+&lt;p&gt;As a designer, I want to be able to create more than I destroy. The next time I land a big job, I will know before anything else that I am prepared to tackle it. I’m going to give it my all and be able to provide the best results to myself, the client and my peers.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 21 Mar 2015 19:00:00 +1000</pubDate>
+        <link>http://joshtregenza.com/choking-on-an-elephant</link>
+        <guid isPermaLink="true">http://joshtregenza.com/choking-on-an-elephant</guid>
+        
+        
+        <category>designer-travels</category>
+        
+      </item>
+    
+      <item>
+        <title>Bread and Meat Co.</title>
+        <description>&lt;p&gt;I’m scouring through the house, trying to find something to eat. I’ve had a coffee, black, the aftertaste of last night’s whiskey still in my mouth. I’m hard pressed to find anything to eat on a Saturday morning and I’m not enthused about it.&lt;/p&gt;
+
+&lt;p&gt;The clock halts at eleven and eggs and bacon turn to fuller meats wrapped in bread. I throw my boots on and storm out the door, driven to the pursuit of the immediate end to my hunger. Burgers and Americana style food joints are popping up more and more in this city, making it easy for a man like myself to meet that urge. Bread and Meat Co is where I’m heading.&lt;/p&gt;
+
+&lt;p&gt;I hope it will stay around longer than the usual occupants of the TCB in the middle of Fortitude Valley.&lt;/p&gt;
+
+&lt;p&gt;Right now it’s easy to miss, in the midst of the construction work occurring. Part of the renewal of Brisbane’s favourite place to get drunk, screw a regrettable person and get in a fight.&lt;/p&gt;
+
+&lt;p&gt;I was a man on a mission though, for new and exciting sensory indulgence. Bread and Meat Co. obliges me.&lt;/p&gt;
+
+&lt;p&gt;I waltz into the kitschy, Ikea-Europa style joint and am greeted by a North American attendant. There is no visible menu shown anywhere but at the counter, making your decisions quick and for some, daunting. Success loves preparation as I had already checked out the menu on the phone on my walk up.&lt;/p&gt;
+
+&lt;p&gt;I got myself a beef brisket foot long, with provolone and aioli with a side of chilli fries. Here is where I make my first misstep. A footlong is a hefty meal in and of itself, especially when it’s meat and cheese. Getting the Chilli Fries is asking death to be your co-pilot.&lt;/p&gt;
+
+&lt;p&gt;I don’t mean this as a negative, just a warning. The chilli fries is a serious meal unto itself. You could sit down to a bowl of it and you’ll be quite content.&lt;/p&gt;
+
+&lt;p&gt;By the time I found out how big the portions were, I had already slammed down a twenty and had Lloyd pour me a preverbal drink. I was ready to end up in The Overlook Hotel for ever.&lt;/p&gt;
+
+&lt;p&gt;My footlong came out on a wooden board and it looked good. At first I thought the crusty roll and meat might be a little dry by as I took my first bite I was immediately mistaken. It was moist meat with a healthy amount of aioli and melted cheese. The dipping sauce to the side (A sandwich staple I’m offended is absent in Australia) ties the meal together. It adds that extra bit of diverse moisture to the sandwich.&lt;/p&gt;
+
+&lt;p&gt;Whilst I consumed my own meal, the table to the left of me is hitting the wall, they could not eat anymore. They had had two bowls of chili fries, a pulled pork and corned beef sandwich. One of the chef’s comes out, teasing them, taking much delight in what I sure is another victim to the monstrous portions.&lt;/p&gt;
+
+&lt;p&gt;I don’t blame them for hitting the wall either. The prices are cheap, making you suspect that your meal will be on the smallish side, so you overcompensate.&lt;/p&gt;
+
+&lt;p&gt;After the foot long, that wall was coming at me like a steam train conducted by a vengeful ex-girlfriend. A sane man would have stopped, but hunger still had me in it’s grasp and I wasn’t leaving until I had the behemoth chilli fries.&lt;/p&gt;
+
+&lt;p&gt;There are a few things I’m not afraid of, holding a man’s gaze and eating by myself. This may have been a time where having someone to watch my food and jacket would have come in handy. I had not had the forethought to grab a fork to eat the fries.&lt;/p&gt;
+
+&lt;p&gt;You need the fork, otherwise you look like a drunk Johnny Cash consuming a birthday, which mightn’t be your cup of tea. I have made an ass of myself for most of my adult life so a lack of shame helps when it comes to eating with my hands in front of the public.&lt;/p&gt;
+
+&lt;p&gt;I did enjoy my meal, a lot, anybody that is able to eat meat, bread and cheese should do as well. Between the sizes of their vast selection and the great price, I struggle to find a time where eating here would be a bad idea. Perhaps if you had exhaustive plans after eating, you may want to put them off. After I had finished I enjoy a well needed, mid afternoon nap.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;You can check out Bread and Meat Co  at &lt;span style=&quot;color: #545454;&quot;&gt;Shop 15/315 Brunswick St, Brunswick Street Mall, Fortitude Valley, QLD 4006. Check out their menu and more at their &lt;a href=&quot;http://www.breadandmeatco.com&quot; target=&quot;_blank&quot;&gt;website here &lt;/a&gt;&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 21 Mar 2015 19:00:00 +1000</pubDate>
+        <link>http://joshtregenza.com/bread-and-meat-co</link>
+        <guid isPermaLink="true">http://joshtregenza.com/bread-and-meat-co</guid>
+        
+        
+        <category>food</category>
+        
+      </item>
+    
+  </channel>
+</rss>

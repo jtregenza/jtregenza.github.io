@@ -2,7 +2,7 @@
 title:  "...whilst education loves fear"
 date:   2015-10-26 17:00:00
 categories: food
-image: /assets/img/Books-apples-websites.png
+image: /assets/img/blog/pixel-icons/Books-apples-websites.png
 color: "#F44336"
 layout: "post"
 ---
