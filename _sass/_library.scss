@@ -1,0 +1,28 @@
+.books-list{
+	list-style: none;
+	margin-left:0;
+	li{
+		@include flexbox;
+		margin-bottom:1.5em;
+		@include media-query($on-laptop){
+			@include flex-direction(column);
+		}
+	}
+	.books-cover{
+		width:150px;
+		height:100%;
+		@include media-query($on-laptop){
+			margin:0 auto;
+			margin-bottom:1em;
+		}
+	}
+	.books-info {
+		margin-left:1em;
+		@include media-query($on-laptop){
+			margin-left:0;
+		}
+	}
+}
+
+
+

@@ -26,6 +26,12 @@ collections:
   art:
     output: true
     permalink: /art/:title/
+  podcasts:
+    output: true
+    permalink: /library/podcasts/:title/
+  books:
+    output: true
+    permalink: /library/books/:title/
 
 defaults:
   -

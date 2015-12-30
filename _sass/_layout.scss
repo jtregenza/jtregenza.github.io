@@ -442,4 +442,38 @@ img {
     margin-bottom:1em;
 }
 
+/** Lists **/
+
+.art-list, .podcast-list {
+    @include flexbox;
+    @include align-items(center);
+    @include flex-wrap(wrap);
+    list-style: none;
+    margin-left:0;
+    margin:0.4em;
+    @include media-query($on-laptop) {
+        @include flex-direction(column);
+    }
+    li{
+        width:32%;
+        margin:0.4em auto;
+        @include justify-content(center);
+        text-align: center;
+        @include media-query($on-laptop) {
+            width:100%;
+        }
+        &:first-child{
+            margin-left:0;
+        }
+        &:last-child{
+            margin-right:0;
+        }
+        img{
+            max-height:150px;
+            @include media-query($on-laptop) {
+                max-height:100%;
+            }
+        }
+    }
+}
 

@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<article class="post">
+  <img src="{{ page.cover-image }}" class="podcast"/>
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <h4 class="library-host">Author: {{ page.book-author }}</h4>
+  </header>
+  <div class="post-content">
+    {{ content }}
+    <a class="podcast-link" href="{{ page.buy-link }}" target="_blank"> Get your hands on it</a>
+  </div>
+
+</article>
