@@ -57,6 +57,4 @@ defaults:
       layout: "page"
       author: Josh Tregenza
 
-gems:
-  - jekyll-sitemap
 
