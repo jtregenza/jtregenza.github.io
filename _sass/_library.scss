@@ -18,8 +18,10 @@
 	}
 	.books-info {
 		margin-left:1em;
+		width:75%;
 		@include media-query($on-laptop) {
 			margin-left:0;
+			width:100%;
 		}
 	}
 }
