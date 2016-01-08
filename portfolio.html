@@ -9,7 +9,7 @@ permalink: /portfolio/
         <h3>Case Studies</h3>
         <div class="heading-line"></div>
         <ul class="post-list">
-          {% for page in site.case-studies %}
+          {% for page in site.case_studies %}
             <li>
               <h4>
                 <a class="post-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a><img src="{{page.image}}" class="card-img">
