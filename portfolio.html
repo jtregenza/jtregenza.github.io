@@ -12,8 +12,9 @@ permalink: /portfolio/
           {% for page in site.case_studies %}
             <li>
               <h4>
-                <a class="post-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a><img src="{{page.image}}" class="card-img">
+                <a class="post-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
               </h4> 
+              <img src="{{page.image}}" class="card-img">
               <div class="blog-excerpt">{{ page.content | truncatewords: 15 }}</div>
               
         
