@@ -6,16 +6,17 @@ permalink: /portfolio/
 
 
       <div class="home-case-studies">
-        <h2>Case Studies</h2>
+        <h3>Case Studies</h3>
+        <div class="heading-line"></div>
         <ul class="post-list">
-          {% for post in site.case-studies %}
+          {% for page in site.case-studies %}
             <li>
               <h4>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><img src="{{post.image}}" class="card-img">
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ page.title }}</a><img src="{{page.image}}" class="card-img">
               </h4> 
-              <div class="blog-excerpt">{{ post.content | truncatewords: 15 }}</div>
+              <div class="blog-excerpt">{{ page.content | truncatewords: 15 }}</div>
               
-              
+        
             </li>
           {% endfor %}
         </ul>
