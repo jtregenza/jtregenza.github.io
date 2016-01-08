@@ -5,7 +5,22 @@ permalink: /portfolio/
 ---
 
 
-
+      <div class="home-case-studies">
+        <h2>Case Studies</h2>
+        <ul class="post-list">
+          {% for post in site.case-studies %}
+            <li>
+              <h4>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><img src="{{post.image}}" class="card-img">
+              </h4> 
+              <div class="blog-excerpt">{{ post.content | truncatewords: 15 }}</div>
+              
+              
+            </li>
+          {% endfor %}
+        </ul>
+        <a href="/portfolio" class="home-case-button">More Case Studies&#8230;</a> 
+      </div>
 
 
 
