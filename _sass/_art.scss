@@ -15,9 +15,10 @@
 	@include flexbox;
 	@include flex-wrap(wrap);
 	list-style: none;
+	margin-left:0;
 	li{
 		width: 20%;
-		margin:0 auto;
+		text-align:center;
 		img{
 			max-height:90px;
 			margin:0.2em;
