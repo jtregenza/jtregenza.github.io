@@ -17,6 +17,8 @@
 }
 
 .post-content{
+	@include flexbox;
+    @include flex-direction(column);
 	p>img {
 		padding:0.5em;
 		@include smallShadow;
