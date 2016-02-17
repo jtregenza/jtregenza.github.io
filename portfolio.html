@@ -22,6 +22,8 @@ permalink: /portfolio/
             </li>
           {% endfor %}
         </ul> -->
+        {% capture my-include %}{% include company-work-list.markdown %}{% endcapture %}
+        {{ my-include | markdownify }}
       </div>
 
 
