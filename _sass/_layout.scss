@@ -486,14 +486,14 @@ img {
     display: flex;
     flex-direction: column;
     margin-left: 30px;
-    -webkit-flex-flow: column-wrap;
-    flex-flow: column-wrap;
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
     -webkit-align-content: stretch;
     align-content: stretch;
     height: 250px;
-    @include media-query($on-laptop) {
-                height:100%;
-}
-}
+        @include media-query($on-laptop) {
+                    height:100%;
+        }
+    }
 }
 
