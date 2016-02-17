@@ -1,4 +1,4 @@
-###Companies I've worked with
+### Companies I've worked with
 
 *	Web3
 *	Queensland Health
