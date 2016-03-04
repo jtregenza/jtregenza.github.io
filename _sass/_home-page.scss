@@ -21,21 +21,22 @@
 	@include align-items(center);
 	@include justify-content(space-around);
 	width:16.25em;
-	background-color: rgba(250,250,250,0.8) ;
-	border-radius:5px;
-	border:5px solid $midnight;
-	box-shadow:0 0 0 5px rgba(250,250,250,0.8),
-	0px 0px 4px 0px rgba(0,0,0,0.12),
-	0px 4px 4px 0px rgba(0,0,0,0.24);
+	// background-color: rgba(250,250,250,0.8) ;
+	// border-radius:5px;
+	// border:5px solid $midnight;
+	// box-shadow:0 0 0 5px rgba(250,250,250,0.8),
+	// 0px 0px 4px 0px rgba(0,0,0,0.12),
+	// 0px 4px 4px 0px rgba(0,0,0,0.24);
 	padding:2.5em 0.5em;
 	box-sizing: border-box;
 	text-align:center;
-	font-family:"Press Start 2P", Helvetica, Arial, sans-serif;
-	color:$midnight;
+	font-family: Helvetica, Arial, sans-serif;
+	color:$white;
 	min-height: 335px;
 	h1{
 		font-size:1.125rem;
 		margin-bottom:0.8em;
+		font-weight: light;
 	}
 	p {
 		line-height: 1.4;
@@ -45,7 +46,7 @@
 		svg {
 			height:49px;
 			path { 
-				fill: $midnight;
+				fill: $white;
 			}
 		}
 
