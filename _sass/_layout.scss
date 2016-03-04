@@ -5,8 +5,8 @@
     // border-top: 5px solid $grey-color-dark;
     // border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-    background-image:url('../assets/img/pixel-city-project-alpha.png');
-    background-position: bottom;
+    background-image:url('../assets/img/desk-wip3.png');
+    background-position: 30% 15%;
     @include flexbox;
     @include justify-content(space-between);
     @include align-items(center);
