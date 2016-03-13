@@ -457,6 +457,9 @@ img {
     li{
         width:32%;
         margin:0.4em auto;
+        &:nth-child(3n){
+            margin-left:0;
+        }
         @include justify-content(center);
         text-align: center;
         @include media-query($on-laptop) {
