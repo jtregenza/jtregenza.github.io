@@ -457,7 +457,7 @@ img {
     li{
         width:32%;
         margin:0.4em auto;
-        &:nth-child(3n){
+        &:nth-child(3n+3){
             margin-left:0;
         }
         @include justify-content(center);
