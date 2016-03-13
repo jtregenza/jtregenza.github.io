@@ -40,7 +40,7 @@ layout: home-page
       </div> -->
 
       <div class="home-art">
-      {% for art in site.art.sort_by(:date, 'asc') %}
+      {% for page in site.art.sort_by(:date, 'asc') %}
         <h2>Latest Art</h2>
         <div class="heading-line"></div>
         <ul class="art-list">
