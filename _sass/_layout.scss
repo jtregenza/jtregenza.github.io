@@ -486,7 +486,7 @@ img {
 
 .home-case-studies {
     ul{
-    display: flex;
+    @include flexbox;
     // flex-direction: column;
     margin-left: 30px;
     -webkit-flex-flow: column wrap;
