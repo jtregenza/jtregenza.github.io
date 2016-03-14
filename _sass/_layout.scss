@@ -499,6 +499,7 @@ img {
         @include media-query($on-laptop) {
                     height:100%;
                     width:  100%;
+                    @include flex-direction(column);
         }
     }
 }
