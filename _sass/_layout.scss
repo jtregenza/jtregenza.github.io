@@ -493,9 +493,11 @@ img {
     flex-flow: column wrap;
     -webkit-align-content: stretch;
     align-content: stretch;
+    -webkit-align-content:stretch;
     height: 250px;
         @include media-query($on-laptop) {
                     height:100%;
+                    width:  100%;
         }
     }
 }
