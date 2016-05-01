@@ -1,61 +1,18 @@
 ---
 layout: home-page
 ---
-
-<div class="home">
-<div class="wrapper">
-    <div class="home-content">
-      <div class="home-blurb">
-      <!-- About Blurb: Images of Josh (Pixel|Normal|Poly) and a brief blurb about me -->
-      <span><img class="portrait" src="/assets/img/josh-tregenza-pixelised.jpg">
-      <img class="portrait" src="/assets/img/josh-tregenza.jpeg">
-      <img class="portrait" src="/assets/img/josh-tregenza-triangulated-image.png"></span>
-      {% include about-blurb.html  %}
-      </div>
-      <div class="home-blog">
-        <h2>Writing</h2>
-          <div class="heading-line"></div>
-        <ul class="post-list">
-          {% for post in site.posts limit:3 %}
-            <li>
-              <h4>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><img src="{{post.image}}" class="card-img">
-              </h4> 
-              <div class="blog-excerpt">{{ post.content | truncatewords: 15 }}</div>
-              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-              
-            </li>
-          {% endfor %}
-        </ul>
-        <!-- Blog Preview: show three most recent blog posts and then display button to read more -->
-        <a href="/writing/" class="home-blog-button">More Writing&#8230;</a> 
-      </div>
-
-<!-- Case Studies are in progress -->
-<!--       <div class="home-case-studies">
-        <h2>Case Studies</h2>
-        <div class="heading-line"></div>
-        Case Study Preview: show three most recent case studies posts and then display button to read more
-        <a href="#" class="home-case-button">More Case Studies&#8230;</a> 
-      </div> -->
-
-      <div class="home-art">
-     
-        <h2>Latest Art</h2>
-        <div class="heading-line"></div>
-        <ul class="art-list">
-        {% assign artpieces = site.art | sort: 'path' %}
-          {% for page in artpieces limit:3 %}
-            <li>
-              <a href="{{ page.url | prepend: site.baseurl }}"><img src="{{ page.image }}" alt="{{page.title}} | Josh Tregenza">
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-        <!-- Art Preview: show three most recent art works that I have made and then display button to read more -->
-        <a href="/portfolio/" class="home-art-button">More Art Pieces&#8230;</a> 
-      </div>
-    </div>
-    <span class="contact">Want to get into contact? Email me at <h3><a href="mailto:josh@joshtregenza.com">josh@joshtregenza.com</a></h3></span>
-</div>
-</div>
+<svg xmlns="http://www.w3.org/2000/svg" width="95" height="200" viewBox="0 0 95 200" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <defs>
+        <path id="a" d="M54.286 172.816H95V0H0v172.816C0 187.83 12.152 200 27.143 200c14.99 0 27.143-12.17 27.143-27.184z"/>
+        <path id="b" d="M41.975 142.88v7.582h-.008c-.31 11.326-9.583 20.412-20.98 20.412-11.59 0-20.987-9.4-20.987-20.995 0-11.596 9.396-20.996 20.988-20.996.195 0 .39.003.583.008v-.008h6.413V20.994h13.992v107.89h13.992V6.998H69.96v13.997h13.407V34.99H69.96v93.894h13.407v13.997H41.975zM34.98 13.997c3.863 0 6.995-3.133 6.995-6.998S38.843 0 34.98 0c-3.864 0-6.997 3.133-6.997 6.998s3.133 6.998 6.996 6.998zM13.99 149.88c0-3.866 3.132-7 6.996-7 3.863 0 6.995 3.134 6.995 7 0 3.864-3.132 6.997-6.995 6.997-3.864 0-6.996-3.133-6.996-6.998z"/>
+      </defs>
+      <g fill="none" fill-rule="evenodd">
+        <use class="svg-background" fill="#FE5358" xlink:href="#a"/>
+        <g transform="translate(5.816 23.3)">
+          <use fill="#FFF" xlink:href="#b"/>
+          <use xlink:href="#b"/>
+        </g>
+      </g>
+    </svg>
+    <p class="byline">New Site Coming</p>
+    <a href="mailto:josh@joshtregenza.com" class="email">josh@joshtregenza.com</a>
