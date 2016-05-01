@@ -1,3 +1,41 @@
+/* Home Page - coming soon*/
+body{
+	display:flex; 
+	justify-content: center; 
+	flex-direction:column; 
+	align-items: center; 
+
+	font-family:"Open Sans", sans-serif; 
+	font-size:16px;
+	background-color:#fafafa;
+
+}
+
+.byline {
+	color: #4A4A4A; 
+	letter-spacing: 1.25;
+}
+
+a.email {
+	color: #FE5358;
+	transition: 0.3s ease-in;
+}
+
+a.email:hover {
+	color: #1AD980;
+}
+
+.svg-background {
+	transition:0.7s ease-in-out;
+}
+.svg-background:hover {
+	fill: #384452;
+}
+
+/*end coming soon code*/
+
+
+
 .splash {
 		background-image:url('../assets/img/desk-wip3.png');
 		width:100%;
