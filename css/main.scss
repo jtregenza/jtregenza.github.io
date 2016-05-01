@@ -93,7 +93,7 @@ $on-laptop:        800px;
 @mixin justify-content($bVal){
   -webkit-justify-content: $bVal;
   -ms-justify-content: $bVal;
-  -mozjustify-content: $bVal;
+  -moz-justify-content: $bVal;
   justify-content: $bVal;
 
 }
