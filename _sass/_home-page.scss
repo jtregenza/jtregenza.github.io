@@ -27,14 +27,15 @@ a.email {
 }
 
 a.email:hover {
-	color: #1AD980;
+	color: darken(#fe5358, 10%);
 }
 
 .svg-background {
+	fill: $midnight;
 	transition:0.7s ease-in-out;
 }
 .svg-background:hover {
-	fill: #384452;
+	fill: lighten($midnight, 25%);
 }
 
 /*end coming soon code*/
