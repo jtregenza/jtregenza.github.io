@@ -2,7 +2,7 @@
 layout: post
 title:  "Due Diligence Magazine"
 date:   2016-05-14 14:52:59 +1000
-thumb: /assets/img/projects/ddmag.png
+thumb: /assets/img/projects/ddmag-thumb.png
 image: /assets/img/projects/ddmag.png
 link: http://www.ddmag.com.au
 ---

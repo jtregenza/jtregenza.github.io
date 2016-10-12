@@ -2,7 +2,7 @@
 layout: post
 title:  "Hyd"
 date:   2016-05-14 14:52:59 +1000
-thumb: /assets/img/projects/hyd.png
+thumb: /assets/img/projects/hyd-thumb.png
 image: /assets/img/projects/hyd.png
 ---
 Hyd takes the beast out of writing for Jekyll.

@@ -2,7 +2,7 @@
 layout: post
 title:  "3D Art"
 date:   2016-05-14 14:52:59 +1000
-thumb: /assets/img/projects/3d-art.png
+thumb: /assets/img/projects/3d-art-thumb.png
 image: /assets/img/projects/3d-art.png
 ---
 
