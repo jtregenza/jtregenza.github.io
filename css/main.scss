@@ -6,60 +6,27 @@
 
 
 // Our variables
-// Our variables
-$base-font-family: "Roboto", Helvetica, Arial, sans-serif;
-$header-font-family:"Roboto", Helvetica, Arial, sans serif;
+$base-font-family: "Open Sans", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
+$base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
-$base-font-weight: normal;
 
-$spacing-unit:     30px;
+$spacing-unit:     54px;
 
-$red:#F44336;
-$pink:#E91E63;
-$purple:#9C27B0;
-$darkpurple:#673AB7;
-$darkblue:#3F51B5;
-$blue:#2196F3;
-$lightblue:#03A9F4;
-$aqua:#00BCD4;
-$teal:#009688;
-$green:#1ad980;
-$olive:#8BC34A;
-$lightgreen:#CDDC39;
-$lightyellow:#FFEB3B;
-$yellow:#FFC107;
-$gold:#FF9800;
-$orange:#FF5722;
-$brown:#795548;
-$grey:#9E9E9E;
-$steel:#607D8B;
-$black:#222222;
-$white:#fafafa;
-$midnight:#384452;
-
-$primary-color:		$red;
-$text-color:       $midnight;
-$background-color: #f4f4f4;
-$brand-color:      $red;
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #333;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-$menuColor:$red;
-$headerColor:#37474F;
-$blogPostColor: #37474F;
-$socialColor:$red;
+$grey-color-dark:  $brand-color;
 
 // Width of the content area
-$content-width:    940px;
+$content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
-
-
 
 
 /****** MIXINS ********/
@@ -146,10 +113,6 @@ box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.12), 0px 8px 8px 0px rgba(0,0,0,0.24);
       margin-right:2%;
   }
 }
-
-
-
-
 // Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -165,23 +128,15 @@ box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.12), 0px 8px 8px 0px rgba(0,0,0,0.24);
 
 
 
-
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
-
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,500,100|Press+Start+2P);
+@import 'https://fonts.googleapis.com/css?family=Open+Sans|Space+Mono';
 
 @import
         "base",
         "layout",
+        "projects",
         "home-page",
-        "mixins",
-        "blog",
-        "art",
-        "library",
-        "variables",
-        "animations"
-        
-
+        "articles",
+        "animations",
+        "case-studies"
 ;

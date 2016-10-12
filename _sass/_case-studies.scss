@@ -1,0 +1,33 @@
+.case-studies {
+    margin-bottom:2em;
+    > li {
+        @include justify-content(center);
+        padding: $spacing-unit;
+        background-color:whitesmoke;
+        margin-bottom:0px;
+        &:nth-child(2n+1){
+            background:#4A4A4A;
+            color:#FAFAFA;
+            a{
+                color:#FAFAFA;
+            }
+        }
+    }
+}
+
+.case-study{
+    @include flex-direction(row);
+    @include justify-content(center);
+    @include align-items(center);
+    @include media-query($on-palm) {
+        @include flex-direction(column);
+    }
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    img {
+        @include align-self(center);
+        padding:0 2em;
+        max-height:100px;
+        
+    }
+}

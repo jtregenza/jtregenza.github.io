@@ -10,7 +10,6 @@ dl, dd, ol, ul, figure {
 
 
 
-
 /**
  * Basic styling
  */
@@ -35,7 +34,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: 0.5rem;
 }
 
 
@@ -101,7 +100,7 @@ a {
 
     &:hover {
         color: $text-color;
-        text-decoration: none;
+        text-decoration: underline;
     }
 }
 
@@ -163,6 +162,7 @@ pre {
     margin-left: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
+    box-sizing: border-box;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
@@ -193,22 +193,80 @@ pre {
  * Icons
  */
 .icon {
+
     > svg {
         display: inline-block;
-        width: 40px;
-        height: 40px;
+        width: 18px;
+        height: 18px;
         vertical-align: middle;
 
-        path, ellipse {
-            fill: lighten($midnight, 10%);
+        path {
+            fill: #fff;
+            width:100%;
             transition:all 0.6s ease-in-out;
-            }
         }
     }
+}
+
+.icon--instagram {
+    transition:all 1s ease-in-out;
+    &:hover {
+        > svg {
+
+        circle { 
+            fill:#1ad980;  
+            } 
+        }
+       
+    }
+    > svg { 
+            path {
+                fill:$brand-color!important;
+            }
+            circle {
+                transition:all 0.6s ease-in-out;
+            }
+        }
+
+    }
+    
 
 
+.icon--dribbble {
+    transition:all 1s ease-in-out;
+    &:hover {
+        > svg {
 
+        path, ellipse { 
+            fill:#ea4c89;  
+            } 
+        }
+       
+    }
+}
 
+.icon--twitter {
+    transition:all 1s ease-in-out;
+    &:hover {
+        > svg {
 
+        path, ellipse { 
+            fill:#55acee;  
+            } 
+        }
+       
+    }
+}
 
+.icon--github {
+    transition:all 1s ease-in-out;
+    &:hover {
+        > svg {
 
+        path, ellipse { 
+            fill:#d6e685;  
+            } 
+        }
+       
+    }
+}

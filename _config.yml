@@ -1,9 +1,8 @@
-
 # Site settings
-title: Josh Tregenza | Designer
+title: josh tregenza // designer
 email: josh@joshtregenza.com
 description: > # this means to ignore newlines until "baseurl:"
-  I build things with people just like you. Talk to me about web design, pixel art and low poly art.
+  I'm Josh. I'm a designer. I use my skills to help you make more money.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://joshtregenza.com" # the base hostname & protocol for your site
 twitter_username: joshtregenza
@@ -13,25 +12,27 @@ dribbble_username: joshtregenza
 
 # Build settings
 markdown: kramdown
-markdown_ext: "markdown,mkdown,mkdn.mkd.md"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: :title
 sass:
     style: :compressed
+
+
+#Gems
+gems: [jekyll-paginate]
+
 
 # Default Settings
 collections:
   case_studies:
     output: true
-    permalink: /case-studies/:title/
-  art:
+    permalink: /case_studies/:title/
+  projects:
     output: true
-    permalink: /art/:title/
-  podcasts:
+    permalink: /projects/:title/
+  podcast:
     output: true
-    permalink: /library/podcasts/:title/
-  books:
-    output: true
-    permalink: /library/books/:title/
+    permalink: /podcast/:title/
 
 defaults:
   -
@@ -39,22 +40,37 @@ defaults:
       path: "" # an empty string here means all files in the project
       type: "post" # previously `post` in Jekyll 2.2.
     values:
-      layout: "post"
-      author: Josh Tregenza
+      layout: post
+      author: "Josh Tregenza"
       category: writing
-        -
+        
     scope:
       path: "" # an empty string here means all files in the project
       type: "pages" # previously `post` in Jekyll 2.2.
     values:
-      layout: "page"
-      author: Josh Tregenza
-        -
+      layout: page
+      author: "Josh Tregenza"
+        
     scope:
-      path: ""
+      path: "case_studies"
       type: case_studies
     values:
-      layout: "page"
-      author: Josh Tregenza
+      layout: page
+      author: "Josh Tregenza"
 
+    scope:
+      path: "projects"
+      type: projects
+    values:
+      layout: page
+      author: "Josh Tregenza"
+
+    scope:
+      path: "podcast"
+      type: podcast
+    values:
+      layout: page
+      author: "Josh Tregenza"
+
+    
 
