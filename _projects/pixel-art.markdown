@@ -15,7 +15,7 @@ I don't like pixel perfect mockups. I find them too restrictive and counter-intu
   <div class="grid-item"><img src="/assets/img/projects/pixel-art/eaten-elephant-social-media.png"/></div>
   <div class="grid-item"><img src="/assets/img/projects/pixel-art/mad-hatters-hat-social-media.png"/></div>
   <div class="grid-item grid-item--width2"><img src="/assets/img/projects/pixel-art/josh_billboard_new.png"/> </div>
-  <div class="grid-item"><img src="/assets/img/projects/pixel-art/meat-sandwich_SocialMedia.png"/></div>
+  <div class="grid-item"><img src="/assets/img/projects/pixel-art/meat-sandwich_socialMedia.png"/></div>
   <div class="grid-item"><img src="/assets/img/projects/pixel-art/octopus2.png"/></div>
   <div class="grid-item grid-item--width2"><img src="/assets/img/projects/pixel-art/quitting-time-2.png"/></div>
   <div class="grid-item"><img src="/assets/img/projects/pixel-art/josh_portrait_social.png"/></div>
