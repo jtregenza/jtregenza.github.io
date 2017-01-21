@@ -7,17 +7,17 @@ image: /assets/img/projects/tcftss/v3-tcftss.png
 link: http://fromthesilverscreen.com
 ---
 
-They Came From the Silver Screen is a podcast that showcases film and the societal issues that are surround them. I produce this podcast and do all design work for it.
+They Came From the Silver Screen is a podcast that deconstructs the societal issues in films and their relationship with the world. I produce this podcast and do all design work for it.
 
 My fellow host and I started this due to a mutual love of film and a yearning to discuss them in a more indepth manner.  
 
 <p align="center">
-<img src="/assets/img/projects/tcftss/v1-tcftss.png" alt="First Version of the Logo"/> 
+<img src="/assets/img/projects/tcftss/v1-tcftss.png" alt="First Version of the Logo"/>
 <br>
 <em>First Pass on the Logo</em>
 </p>
 <p align="center">
-<img src="/assets/img/projects/tcftss/tcftss-sketch.jpg" alt="Sketch"/> 
+<img src="/assets/img/projects/tcftss/tcftss-sketch.jpg" alt="Sketch"/>
 <br>
 <em>Sketching up for the Second Pass</em>
 </p>
