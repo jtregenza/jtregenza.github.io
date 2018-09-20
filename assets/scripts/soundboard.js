@@ -83,7 +83,7 @@ class Board extends React.Component {
 							}
 						</div>
 						<div className="record-container">
-							<img className={recordAni} src="../assets/img/record-icon.svg"/>
+							<img className={recordAni} src="/assets/img/record-icon.svg"/>
 						</div>
 					</div>
 				</div>
