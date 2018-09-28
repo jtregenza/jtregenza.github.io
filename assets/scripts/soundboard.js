@@ -109,12 +109,11 @@ class Board extends React.Component {
 					{ id: 10, soundName: 'Grab That Moon', soundURL: 'https://dl.dropboxusercontent.com/s/t0ijlpybr7vycnd/Grab%20That%20Moon.m4a', count: 0, isPlaying: false },
 					{ id: 11, soundName: 'Live your best life', soundURL: 'https://dl.dropboxusercontent.com/s/ajnfmv31f3xes88/Live%20your%20best%20life.m4a', count: 0, isPlaying: false },
 					{ id: 12, soundName: 'I got you boo', soundURL: 'https://dl.dropboxusercontent.com/s/5ruja5miaguq4ix/I%20got%20you%20boo.m4a', count: 0, isPlaying: false },
-					{ id: 13, soundName: 'Its ya boi', soundURL: 'https://dl.dropboxusercontent.com/s/8tmikmnhr0k59bx/win-an-award.m4a', count: 0, isPlaying: false },
-					{ id: 14, soundName: 'Smoke Test', soundURL: 'https://dl.dropboxusercontent.com/s/uzpwdses6es4j9w/Smoke%20Test%20Everyday.m4a', count: 0, isPlaying: false },
-					{ id: 15, soundName: 'The Good Hour', soundURL: 'https://dl.dropboxusercontent.com/s/hid376pjelaklsm/The%20Good%20Hour.m4a', count: 0, isPlaying: false },
-					{ id: 16, soundName: 'Design Daddy', soundURL: 'https://dl.dropboxusercontent.com/s/8l2qjg6jwh41vk5/Design%20Daddy.m4a', count: 0, isPlaying: false },
-					{ id: 17, soundName: 'Pride', soundURL: 'https://dl.dropboxusercontent.com/s/olflrlhi1bayynm/Pride.m4a', count: 0, isPlaying: false },
-					{ id: 18, soundName: 'Jade Dimitri', soundURL: 'https://dl.dropboxusercontent.com/s/p1ayj26cj6627ml/Jade%20Dimitri.m4a', count: 0, isPlaying: false }
+					{ id: 13, soundName: 'Smoke Test', soundURL: 'https://dl.dropboxusercontent.com/s/uzpwdses6es4j9w/Smoke%20Test%20Everyday.m4a', count: 0, isPlaying: false },
+					{ id: 14, soundName: 'The Good Hour', soundURL: 'https://dl.dropboxusercontent.com/s/hid376pjelaklsm/The%20Good%20Hour.m4a', count: 0, isPlaying: false },
+					{ id: 15, soundName: 'Design Daddy', soundURL: 'https://dl.dropboxusercontent.com/s/8l2qjg6jwh41vk5/Design%20Daddy.m4a', count: 0, isPlaying: false },
+					{ id: 16, soundName: 'Pride', soundURL: 'https://dl.dropboxusercontent.com/s/olflrlhi1bayynm/Pride.m4a', count: 0, isPlaying: false },
+					{ id: 17, soundName: 'Jade Dimitri', soundURL: 'https://dl.dropboxusercontent.com/s/p1ayj26cj6627ml/Jade%20Dimitri.m4a', count: 0, isPlaying: false }
 				]
 			}
 		}
