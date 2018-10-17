@@ -169,6 +169,7 @@
 
 .work-post {
 	width:40%;
+	min-width: 240px;
 	margin:2rem auto;
 	padding:1.5rem;
 	border:1px solid rgba(0,0,0,0.06);
@@ -192,6 +193,11 @@
 				font-weight:500;
 				color:rgba(13,13,13,0.78);
 			}
+		}
+	}
+	.content{
+		p {
+			min-width: 240px;
 		}
 	}
 	img{
