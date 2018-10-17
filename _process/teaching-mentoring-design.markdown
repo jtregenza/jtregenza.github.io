@@ -9,5 +9,5 @@ icons: [category, supervisor_account]
 
 - how to teach
 - when to mentor 
-- measure sucess in teaching
+- measure success in teaching
 - keep going 
