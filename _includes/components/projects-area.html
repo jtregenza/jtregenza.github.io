@@ -1,0 +1,12 @@
+<div id="projects" class="project-slide">
+<aside>
+	<img src="/assets/img/projects/test1.jpg"/>
+</aside>
+<article class="projects-area">
+		{%- for items in site.projects -%}
+		<a href="{{items.url}}"class="card" style="background-image: url({{ items.image }});">
+			<h4 >{{ items.title | escape }}</h4>
+	</a>
+		{%- endfor -%}
+</article>
+</div>

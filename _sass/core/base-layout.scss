@@ -1,0 +1,235 @@
+.site-header {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+
+}
+
+.site-title {
+	height: 100%;
+	svg {
+		width: 2rem;
+		height:2rem;
+		margin: 1.5rem;
+	}
+}
+
+.page-content {
+	padding-top: 0;
+}
+
+// Splash
+.splash{
+  height:100vh;
+  width:100%;
+  overflow:hidden;
+  box-sizing:border-box;
+  background: rgba(#FF0266,1);
+  background: radial-gradient(ellipse at bottom right, rgba(#F18760, 1) 0%, rgba(#FF0266, 1) 100%);
+
+  display: grid;
+  grid-template-areas:
+	"logo nav nav nav"
+	"display display islands islands"
+  ;
+  grid-template-columns:repeat(4, 1fr);
+  grid-template-rows:54px 1fr;
+
+  .site-logo{
+	  grid-area:logo;
+	  display:grid;
+	  place-items:center center;
+  }
+  nav{
+	  grid-area:nav;
+  }
+  .floating-archipelago{
+	  height:calc(100vh - 54px);
+	  grid-area:islands;
+	  display: flex;
+	  display:grid;
+	  align-items:flex-end;
+	  justify-content: flex-end;
+	  grid-template-areas:
+		"image";
+	  grid-template-columns:1fr;
+	  grid-template-rows:1fr;
+	  overflow:hidden;
+	  img{
+		grid-area:image;
+		position:relative;
+		bottom:0;
+		right:0;
+		// align-self: flex-end;
+		// margin-right: -10rem;
+		transform: scale(1.75,1.75);
+		width:115%;
+		animation-name: floating;
+		animation-duration: 4.8s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in;
+		filter: drop-shadow(0px 8px 8px rgba(#0e0e0e,0.24)) drop-shadow(0px 0px 8px rgba(#0e0e0e,0.12)) saturate(140%);
+		&:nth-of-type(1){
+			z-index: 4;
+			bottom:-5vh;
+			right:15vw;
+			filter: drop-shadow(0px 8px 8px rgba(14,14,14,0.24)) drop-shadow(0px 0px 8px rgba(14,14,14,0.12)) saturate(140%) blur(0.75px);
+			animation-duration: 4.6s;
+		}
+		&:nth-of-type(2){
+			z-index: 1;
+			width: 57.5%;
+			bottom: 44vh;
+			right: -25vh;
+			filter: drop-shadow(0px 8px 8px rgba(14,14,14,0.24)) drop-shadow(0px 0px 8px rgba(14,14,14,0.12)) saturate(140%) blur(1px);
+			animation-duration: 5.2s;
+		}
+		&:nth-of-type(3){
+			z-index: 2;
+			width: 46%;
+			bottom: 44vh;
+			right:-30vw;
+			filter: drop-shadow(0px 8px 8px rgba(14,14,14,0.24)) drop-shadow(0px 0px 8px rgba(14,14,14,0.12)) saturate(140%) blur(1px);
+			animation-duration: 5.4s;
+
+		}
+		&:nth-of-type(4){
+			z-index: 3;
+			width: 34.5%;
+			bottom: 44vh;
+			right:-10vw;
+			filter: drop-shadow(0px 8px 8px rgba(14,14,14,0.24)) drop-shadow(0px 0px 8px rgba(14,14,14,0.12)) saturate(140%) blur(0.75px);
+			animation-duration: 5.6s;
+		}
+		&:nth-of-type(5){
+			z-index: 5;
+			right:-15vw;
+			bottom:-2vh;
+		}
+	  }
+  }
+
+  
+
+  .display{
+	grid-area:display;
+	display: grid;
+	color: pink;
+	font-size: 96px;
+	text-transform:uppercase;
+	font-family:'Bungee', sans-serif;
+	font-weight:800;
+	// background:rebeccapurple;
+	width:34rem;
+	height:100%;
+	line-height:1;
+	text-align: right;
+	transform: rotate(270deg);
+	padding:0;
+	margin:0;
+	align-self: flex-end;
+	justify-self: center;
+		// background:url('http://joshtregenza.com/assets/img/projects/3d-art/streets-of-oblivion.png') center;
+		// background-clip:text;
+		// color:transparent;
+	place-items:center center;
+	// background:purple;
+	// mix-blend-mode: multiply;
+  
+}
+
+
+}
+
+// .elevator-pitch{
+//   &:before{
+// 		background: inherit;
+// 		bottom: 0;
+// 		content: '';
+// 		display: block;
+// 		height: 5rem;
+// 		left: 0;
+// 		position: absolute;
+// 		right: 0;
+// 		transform: skewY(1.5deg);
+// 		transform-origin: -100%;
+// 		z-index: 10;
+// 		box-shadow: 0px -4px 4px rgba(#0e0e0e,0.24);
+
+//   }
+//   padding-top:2rem;
+//   background:#1E1E2E;
+//   display:grid;
+//   grid-template-columns:1fr 1fr;
+//   z-index: 11;
+//   place-items:center center;
+//   img{
+// 	width:50%;
+// 	filter:hue-rotate(180deg) saturate(200%);
+	
+//   }
+//   > div{
+// 	padding:1rem;
+// 	margin:1rem;
+// 	background: #1E1E2E;
+// 	color:white;
+// 	h2{
+// 	  color:#FF0266;
+// 	  text-transform:uppercase;
+// 	  border-bottom:8px solid #FF0266;
+// 	}
+//   }
+// }
+
+
+// nav{
+//   position:absolute;
+//   top:0;
+//   right:16px;
+  
+//   .trigger{
+// 	width:100%;
+// 	margin:0;
+// 	list-style:none;
+// 	display:flex;
+// 	justify-content:space-between;
+// 	.page-link{
+// 	  color:white;
+// 	  font-weight:700;
+// 	  padding:1rem;
+// 	  box-sizing:border-box;
+// 	  font-size:1.25rem;
+// 	  font-family:'VT323', sans-serif;
+// 	  text-transform:uppercase;
+// 	  letter-spacing:8px;
+// 	  display:flex;
+// 	&:hover{
+// 		background:rgba(purple,0.2);
+// 		text-decoration: none;
+// 	}
+
+// 	  &:after{
+// 		content:'|';
+// 		height:100%;
+// 		width:8px;
+// 		margin-left:1rem;
+// 	  }
+// 	  &:last-of-type{
+// 		  &:after{
+// 			  content: unset;
+// 		  }
+// 	  }
+// 	}
+	
+//   }
+// }
+
+
+@keyframes floating {
+	from { transform: translate3d(0,  0px, 0); }
+	65%  { transform: translate3d(0, 15px, 0); }
+	to   { transform: translate3d(0, -0px, 0); }    
+}

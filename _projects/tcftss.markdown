@@ -1,39 +1,15 @@
 ---
-layout: post
+layout: project-post
 title:  "They Came From The Silver Screen"
 date:   2016-05-14 14:52:59 +1000
-thumb: /assets/img/projects/tcftss.png
-image: /assets/img/projects/tcftss/v3-tcftss.png
+thumb: /assets/img/projects/test1.jpg
+image: /assets/img/projects/test1.jpg
 link: http://fromthesilverscreen.com
+excerpt:
+  "At some point, you’ll want to include images, downloads, or other digital assets along with your text content. One common solution is to create a folder in the root of the project directory called something like assets"
 ---
+*Note: The podcast is currently on hiatus*
 
-They Came From the Silver Screen is a podcast that deconstructs the societal issues in films and their relationship with the world. I produce this podcast and do all design work for it.
+They Came From the Silver Screen is a podcast that looks at films and deconstructs the societal issues within them. Episodes range from the the latest film to a deep dive into a collection of films from a director. 
 
-My fellow host and I started this due to a mutual love of film and a yearning to discuss them in a more indepth manner.  
-
-<p align="center">
-<img src="/assets/img/projects/tcftss/v1-tcftss.png" alt="First Version of the Logo"/>
-<br>
-<em>First Pass on the Logo</em>
-</p>
-<p align="center">
-<img src="/assets/img/projects/tcftss/tcftss-sketch.jpg" alt="Sketch"/>
-<br>
-<em>Sketching up for the Second Pass</em>
-</p>
-
-![Original Logo](/assets/img/projects/tcftss/v2-tcftss.png)
-
-*This is the first logo and branding we went with for the podcast*
-
-![Example of a Cover for Social Media](/assets/img/projects/tcftss/social-media-cover.png)
-
-*This is an example of the branding for social media covers*
-
-![Example of a Cover for Social Media](/assets/img/projects/tcftss/YT-thumbs.png)
-
-*For the website and youtube we made this thumbnail branding*
-
-![Current Branding](/assets/img/projects/tcftss/v3-tcftss.png)
-
-*With the launch of the new website, the branding has been updated*
+Each episode is hosted by Damian Danaher and myself, where I do the audio production and the design.

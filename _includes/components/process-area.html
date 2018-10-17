@@ -1,0 +1,25 @@
+<section id="process" class="process">
+	<article class="process-area">
+			<h3> Processes </h3>
+				{%- for items in site.process -%}
+				<a href="{{items.url}}">
+					<div class="process-card">
+						<p class="designation">{{ items.code }}</p>
+						<h4>{{ items.title | escape }}</h4>
+						<ul class="category">
+							{%- for category in items.category -%}
+							<li>{{ category }}</li>
+							{%- endfor -%}
+						</ul>
+						<!-- <p>{{ items.category }}</p> -->
+						<ul class="icons">
+							
+							{%- for icon in items.icons -%}
+							<li><i class="material-icons">{{ icon }}</i></li>
+							{%- endfor -%}
+						</ul>
+					</div>
+				</a>
+				{%- endfor -%}
+	</article>
+</section>

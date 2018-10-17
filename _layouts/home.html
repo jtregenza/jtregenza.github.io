@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+	{%- include head.html -%}
+	<body >
+				
+				<main class="slides" aria-label="Content">
+						{%- include home-header.html -%}
+						{%- include components/elevator-pitch.html -%}
+						{%- include components/work-board.html -%}
+						{%- include components/projects-area.html -%}
+						{%- include components/process-area.html -%}
+						{%- include components/blog-posts.html -%}
+						{%- include components/dev-log-abyss.html -%}
+
+				</main>
+	
+		
+				<!-- {%- include footer.html -%} -->
+				<script>
+						slider('.slides');
+				</script>
+
+	</body>
+
+</html>

@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<section class="process-post">
+	<article class="content">
+		<header class="post-header">
+			<span class="designation">{{ page.code }}</span>
+			<h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+			<ul class="category">
+					{%- for category in page.category -%}
+					<li>{{ category }}</li>
+					{%- endfor -%}
+				</ul>
+		</header>
+		<h2>Description</h2>
+		<p>{{ content }}</p>
+		{% if page.link %}
+			<a href="{{ page.link }}" target="_blank"><button>View</button></a>
+		{% endif %}
+	</article>
+	<footer class="post-footer">
+			{% if page.previous.url == nill %}
+		
+			{% else %}
+				<a href="{{ page.previous.url }}" class="prev">{{ page.previous.title }}</a>
+			{% endif %}
+			{% if page.next.url == nill %}
+		
+			{% else %}
+				<a href="{{ page.next.url }}" class="next"> {{ page.next.title }}</a>
+				{% endif %}
+	</footer>
+</section>

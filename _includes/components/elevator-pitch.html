@@ -1,0 +1,24 @@
+<section id="elevator-pitch" class="elevator-pitch">
+	<div class="circle-group crt">
+	  <div class="circle one"></div>
+	  <div class="circle two"></div>
+	  <div class="circle three"></div>
+	</div>
+	<article class="card crt">
+	  <header>
+		<h3> elevator_pitch.exe
+	  </header>
+	  <section>
+			<p class="command">taskkill floating_islands.exe</p>
+			<p class="command">cd /situs_vulgaris</p>
+			<p class="command">start elevator_pitch.exe</p>
+			<br/>
+			{% capture my_include %}{% include blurb/pitch-blurb.markdown %}{% endcapture %}
+			{{ my_include | markdownify }}
+	  </section>
+	  <footer>
+		<a href=""><button>resume</button></a>
+		<a href="mailto:josh@joshtregenza.com?subject=Hey%20Josh,%20I%20want%20to%20chat"><button>contact</button></a>
+	  </footer>
+	</article>
+  </section>

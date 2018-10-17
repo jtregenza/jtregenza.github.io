@@ -1,0 +1,23 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+// @import "minima";
+@import 'abstracts/variables';
+
+@import 'core/typography',
+		'core/base',
+		'core/layout',
+		'core/base-layout'
+		;
+
+@import 'vendor/slider';
+
+@import 'elements/cards';
+@import 'components/_elevator-pitch',
+		'components/_blog',
+		'components/_process',
+		'components/_work-board',
+		'components/_projects'
+		;
+

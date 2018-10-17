@@ -1,10 +1,24 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
-title: josh tregenza // designer
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: josh tregenza
 email: josh@joshtregenza.com
-description: > # this means to ignore newlines until "baseurl:"
-  I'm Josh. I'm a designer. I use my skills to help you make more money.
+description: >- # this means to ignore newlines until "baseurl:"
+  I'm Josh. I'm a designer.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://joshtregenza.com" # the base hostname & protocol for your site
+url: "http://joshtregenza.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: joshtregenza
 github_username:  jtregenza
 instagram_username: josh_tregenza
@@ -12,27 +26,47 @@ dribbble_username: joshtregenza
 
 # Build settings
 markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: :title
 sass:
     style: :compressed
 
 
-#Gems
-gems: [jekyll-paginate]
-
 
 # Default Settings
 collections:
-  case_studies:
+  work:
     output: true
-    permalink: /case_studies/:title/
+    permalink: /work/:title/
   projects:
     output: true
     permalink: /projects/:title/
   podcast:
     output: true
     permalink: /podcast/:title/
+  process:
+    output: true
+    permalink: /process/:title/
+  dev-log:
+    output: true
+    permalink: /dev-log/:title/
 
 defaults:
   -
@@ -52,25 +86,29 @@ defaults:
       author: "Josh Tregenza"
         
     scope:
-      path: "case_studies"
-      type: case_studies
+      path: "work"
+      type: work
     values:
       layout: page
       author: "Josh Tregenza"
 
     scope:
       path: "projects"
-      type: projects
+      type: project
+    values:
+      layout: project-post
+      author: "Josh Tregenza"
+
+    scope:
+      path: "process"
+      type: process
     values:
       layout: page
       author: "Josh Tregenza"
 
     scope:
-      path: "podcast"
-      type: podcast
+      path: "dev-log"
+      type: dev-log
     values:
       layout: page
       author: "Josh Tregenza"
-
-    
-

@@ -1,0 +1,25 @@
+.content-card {
+	border-radius:8px;
+	background:rgba(250,250,250,1) ;
+	box-shadow: 0 4px 12px rgba(18,18,18, 0.12); 
+	padding: 1rem;
+	img {
+		width:100%;
+		height:160px;
+	}
+}
+
+
+.collection {
+	display: grid;
+	grid-template-areas: "title title title";
+	grid-template-columns: repeat(3, 1fr);
+	padding:1rem;
+	grid-gap: 2rem;
+	max-width:57.5rem;
+	margin:0 auto;
+	background: rgb(212, 212, 212);
+	h3 {
+		grid-area: title;
+	}
+}

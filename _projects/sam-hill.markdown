@@ -1,12 +1,17 @@
 ---
-layout: post
+layout: project-post
 title:  "Sam Hill"
 date:   2016-05-14 14:52:59 +1000
-thumb: /assets/img/projects/sam-hill.png
-image: /assets/img/projects/sam-hill.png
+thumb: /assets/img/projects/test6.jpg
+image: /assets/img/projects/test6.jpg
+excerpt:
+  "At some point, you’ll want to include images, downloads, or other digital assets along with your text content. One common solution is to create a folder in the root of the project directory called something like assets"
 ---
+The game of Sam Hill started as a farming sim set in the wild west with some witcher-esque detective elements. Then I got a little more ambitious.
 
-In my consistent quest to learn as much as I can and create more things that interest me I have begun creating a video game. Currently titled "Sam Hill", the game is a Farming Sim (Much like Harvest Moon or Stardew Valley) set in the Wild West with dectective elements. The art style I'm working towards is similar to the now cancelled Disney Infinity. 
+Sam Hill is now a game where you, the player, are brought to a post capitalistic desert world. Ravaged and sucked dry by the mega corporations that have now deserted the planet, leaving those remaining to try and maintain their communities.
 
-The game is being built in unity with 3d modelling and rigging done in Blender.
- 
+The player takes control of their ***customisable character*** and are let loose on the world to create a life for themselves.
+
+The game is a 3d third person action adventure game built in unity.
+

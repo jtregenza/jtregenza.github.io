@@ -1,0 +1,95 @@
+
+@import '../../assets/fonts/jaapokki/jaapokki';
+@import url('https://fonts.googleapis.com/css?family=Roboto|Material+Icons|Overpass+Mono|Roboto+Condensed|EB+Garamond');
+
+html,body{
+		font-size:16px;
+		font-family:'Roboto', Helvetica, Arial, sans-serif;
+	}
+	h1 {
+		font-weight:300;
+		font-size:6rem;
+		letter-spacing:-1.5;
+		// font-family:'Bungee', sans-serif;
+	}
+	h2{
+		font-weight:300;
+		font-size:3.75rem;
+		letter-spacing:-0.5;
+		// font-family:'Bungee', sans-serif;
+	}
+	h3{
+		font-size:3rem;
+		// font-weight:bolder;
+		text-transform: uppercase;
+		font-family:'Bungee', sans-serif;
+	}
+	h4{
+		font-size:2.125rem;
+		letter-spacing:0.25;
+	}
+	h5{
+		font-size:1.5rem;
+	}
+	h6{
+		font-weight:500;
+		font-size:1.25rem;
+		letter-spacing:0.15;
+	}
+	.subtitle-1{
+		font-size:1rem;
+		letter-spacing:0.15;
+	}
+	.subtitle-2{
+		font-size:0.875rem;
+		font-weight:500;
+	}
+	button{
+		text-transform:uppercase;
+		font-size:0.875rem;
+		letter-spacing:0.75;
+		font-family:'Bungee', sans-serif;
+	}
+	.caption{
+		font-size:0.75rem;
+		letter-spacing:0.4;
+	}
+	
+	.overline {
+		font-size:0.625rem;
+		text-transform:uppercase;
+		letter-spacing:1.5;
+	}
+	
+	p{
+		font-size:1rem;
+		letter-spacing:0.5;
+	}
+
+
+
+
+	.material-icons {
+		font-family: 'Material Icons';
+		font-weight: normal;
+		font-style: normal;
+		font-size: 24px;  /* Preferred icon size */
+		display: inline-block;
+		line-height: 1;
+		text-transform: none;
+		letter-spacing: normal;
+		word-wrap: normal;
+		white-space: nowrap;
+		direction: ltr;
+	  
+		/* Support for all WebKit browsers. */
+		-webkit-font-smoothing: antialiased;
+		/* Support for Safari and Chrome. */
+		text-rendering: optimizeLegibility;
+	  
+		/* Support for Firefox. */
+		-moz-osx-font-smoothing: grayscale;
+	  
+		/* Support for IE. */
+		font-feature-settings: 'liga';
+	  }
