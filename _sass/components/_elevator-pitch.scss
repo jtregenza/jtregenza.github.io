@@ -71,7 +71,8 @@ html {
 	
 	.card{
 		background: darken($color-dark, 5%);
-		width:40rem;
+		width:70%;
+		min-width:240px;
 		min-height: 15rem;
 		border:2px solid $color-light;
 		display: grid;
