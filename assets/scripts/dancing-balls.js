@@ -12,7 +12,7 @@ var mouse = {
 
 var maxRadius = 90;
 
-var colorArray = ["#105B63", "#FFFAD5", "#FFD34E", "#DB9E36", "#BD4932"];
+var colorArray = ["#f7f529", "#f79729", "#f746d0", "#c400ff", "#6721ff"];
 
 
 function Circle(x, y, dx, dy, radius) {
