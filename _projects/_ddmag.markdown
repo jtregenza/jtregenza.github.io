@@ -2,8 +2,8 @@
 layout: project-post
 title:  "Due Diligence Magazine"
 date:   2016-05-14 14:52:59 +1000
-thumb: /assets/img/projects/test3.jpg
-image: /assets/img/projects/test3.jpg
+thumb: /assets/img/projects/test3-compressor.jpg
+image: /assets/img/projects/test3-compressor.jpg
 link: http://www.ddmag.com.au
 excerpt:
   "At some point, you’ll want to include images, downloads, or other digital assets along with your text content. One common solution is to create a folder in the root of the project directory called something like assets"

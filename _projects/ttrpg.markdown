@@ -2,8 +2,8 @@
 layout: project-post
 title:  "Tabletop Role Playing"
 date:   2018-08-03 14:52:59 +1000
-thumb: /assets/img/projects/test5.jpg
-image: /assets/img/projects/test5.jpg
+thumb: /assets/img/projects/test5-compressor.jpg
+image: /assets/img/projects/test5-compressor.jpg
 excerpt:
   "At some point, you’ll want to include images, downloads, or other digital assets along with your text content. One common solution is to create a folder in the root of the project directory called something like assets"
 ---
