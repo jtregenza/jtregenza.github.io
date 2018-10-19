@@ -9,7 +9,7 @@ kind:
 group: design
 ---
 
-``` Solve a person's problem and they will be stress free for a day, teach them how to solve their own problems and they'll deal with their own stress levels.
+_Solve a person's problem and they will be stress free for a day, teach them how to solve their own problems and they'll deal with their own stress levels._
 
 As an autodidact, i'm used to self learning and how to continually learn. It's part of over-correcting my feeling of inadequacy in a room full of traditionally trained designers. A byproduct of this is that I'm very astute in how to learn on the fly and how I can break down problems into parts that I can solve.
 
