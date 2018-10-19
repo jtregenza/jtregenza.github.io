@@ -15,6 +15,6 @@ As an autodidact, i'm used to self learning and how to continually learn. It's p
 
 Design is a solving problems within a series of constraints. When other designers/developers lack knowledge that I have, that's a problem and as a designer, that's a kind of problem that I delight in. 
 
-I like to teach and mentor others, I make the time to impart knowledge and allow them to grow as they learn and be embolded in their own skills. The people I teach and training are smart people, hell most people are plenty smart (they got this far in life for a reason) so I don't want to coddle them but be paitent with them.
+I like to teach and mentor others, I make the time to impart knowledge and allow them to grow as they learn and be emboldened in their own skills. The people I teach and training are smart people, hell most people are plenty smart (they got this far in life for a reason) so I don't want to coddle them but be patient with them.
 
 To train and teach others is to be an advocate for those who seek to learn.
