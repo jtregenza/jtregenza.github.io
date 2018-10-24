@@ -16,7 +16,7 @@
 
 canvas {
 	background: linear-gradient(90deg, rgb(250,250,250), rgb(236, 242, 255));
-	position: absolute;
+	position: fixed;
 	z-index:-1;
 	width:100%;
 	height:100vh;
