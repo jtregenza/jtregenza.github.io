@@ -15,9 +15,9 @@ var slider = function (sliderElement) {
 		window.addEventListener(whatWheel, function (e) {
       var direction = e.wheelDelta || e.deltaY;
   		if (direction > 0) {
-				changeSlide(1);
-			} else {
 				changeSlide(-1);
+			} else {
+				changeSlide(1);
 			}
 		});
 
