@@ -26,7 +26,7 @@ This was given the code name LMUI (Lightning Muffin User Interface... I understa
 
 Within Lampbot you can give applications greater functionality with 'Behaviours', at the time we had behaviours (at the time called capabilities) for Documents and Questions, for workflows, timelines, etc.
 
-![UX Flow for the Documents Capability](/assets/img/work/20170426_Working-Mouse_lampbot_documents "UX Flow for the Documents Capability")
+![UX Flow for the Documents Capability](/assets/img/work/20170426_Working-Mouse_lampbot_documents.png "UX Flow for the Documents Capability")
 >UX FLow for Documents
 
 I came up with a general color theme to base the designs but outside of that I would keep my screens and flows lofi, more wireframes than anything. I had decided this as development for this would not be for quiet some time (These designs would have been finished around Feb 2017 and are only now being developed)
@@ -35,7 +35,7 @@ I came up with a general color theme to base the designs but outside of that I w
 
 When behaviours weren't being created within client projects, I would be the one who would design them out. For example, we needed a new way to create API calls, not just for developers but for anyone who was tech savy enough to know what they were. 
 
-![Early Sketches for The API Behaviours](/assets/img/work/api-sketches.png "Early Sketches for The API Behaviours")
+![Early Sketches for The API Behaviours](/assets/img/work/api-sketches.jpg "Early Sketches for The API Behaviours")
 
 We would use the scratch programming language in order to create API calls out of 'puzzle pieces'. So with this 'solution first' approach I went on to create the pieces using [Google's Blockly](https://developers.google.com/blockly/).
 Proving that this could be done with the language I would then interview developers to greater understand API Calls and how they use them. This would then lead to exploring other programs like Postmate to identify what they do right and where tension lies. 
