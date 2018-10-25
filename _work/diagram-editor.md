@@ -8,7 +8,8 @@ time: "1.4 years"
 kind: "Design"
 group:
 ---
-The main project I worked on with Codebots was designing and building out the Diagram Editor. We broke up the project into two separate parts, the Schematic and the Interface Builder (Which at the time we called UX Flow). To dip my feet in I would work on the Interface Builder as that is where the most unknowns would be. The goal for the Interface Builder was to be able to create a readable flow of an application (That connects with the Schematic and requirements)
+The main project I worked on with Codebots was designing and building out the Diagram Editor. We broke up the project into two separate parts, the Schematic and the Interface Builder (Which at the time we called UX Flow). To dip my feet in I would work on the Interface Builder as that is where the most unknowns would be. The goal for the Interface Builder was:
+> ##### To be able to create a readable flow of an application (That >connects with the Schematic and requirements)
 
 #### Research
 
@@ -26,7 +27,7 @@ This brought to light improvements like duplication, copying and pasting and mov
 
 #### Initial Build of the Diagram Editor
 
-After researching and defining the deliverables that would be required for the Interface Builder I would spend my time working and testing the early prototypes of the Diagram Editor with the systems developer. We built this out with (three.js)[https://threejs.org/] but kept it seperate from the LAMP stack at this time. The point of this prototyping was to build out and test the set requirements we had discovered.
+After researching and defining the deliverables that would be required for the Interface Builder I would spend my time working and testing the early prototypes of the Diagram Editor with the systems developer. We built this out with [three.js](https://threejs.org/) but kept it seperate from the LAMP stack at this time. The point of this prototyping was to build out and test the set requirements we had discovered.
 
 ![Barebone Diagram Editor Prototype](/assets/img/work/de-1.png "Barebone Diagram Editor Prototype")
 
@@ -38,7 +39,7 @@ We created shapes through svg's, despite the fact that we were using three.js we
 
 I quickyl discovered that if I was going to make this scalable I would need to  work out a way to bring vector shapes from design tools like Sketch or Adobe XD and convert them into the coordinates.
 
-So with that, I whipped up a very (simple SVG converter)[https://codepen.io/jtregenza/pen/dVwzjE] and at the time I worked with a foundation shape kit. The Lampbot's ui was loosely based on foundation and so I utilised Foundation's Kitchen Sink and built out the elements and components to then convert them with my converter. We would later take the learnings from my convertor so that Lampbot could do this step for us. 
+So with that, I whipped up a very [simple SVG converter](https://codepen.io/jtregenza/pen/dVwzjE) and at the time I worked with a foundation shape kit. The Lampbot's ui was loosely based on foundation and so I utilised Foundation's Kitchen Sink and built out the elements and components to then convert them with my converter. We would later take the learnings from my convertor so that Lampbot could do this step for us. 
 
 #### Running Scenarios
 
@@ -81,4 +82,6 @@ Though we had planned out options that would alleviate this issue, we had not im
 
 The first run of shapes in the palette would hold up to building out and transforming former access databases into models, but the ui shapes would need rapid expansion in order to be seen as relevant in more fantastical application designs. 
 
+#### Wrap Up
 
+The Codebots platform is currently in Closed Beta with select companies taking part in the Codebots Field Trials. The hypothesis of these trials being that development can be more efficient when a development team uses a codebot (Lampbot being the premier bot for the team).
