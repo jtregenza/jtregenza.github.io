@@ -29,3 +29,5 @@ My time at WorkingMouse was my first with a team of other designers and being ab
 
 The culture of Working Mouse aligned with agile, iterative development through model driven development. While I was able to create UI designs and UX flows, I would also be tackling how the model would operate and understand how best the designer and developer would work.
 About a year into my time at WorkingMouse, I officially moved across to Codebots and was the designer for the Lampbot Team.
+
+![WorkingMouse 404](/assets/img/work/astro-mouse.gif "WorkingMouse 404")
