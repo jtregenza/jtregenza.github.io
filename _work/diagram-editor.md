@@ -8,12 +8,9 @@ time: "1.4 years"
 kind: "Design"
 group:
 ---
-
-The Initial Goal - To be able to create a readable flow of an application (That connects with the Schematic and requirements.)
-
 The main project I worked on with Codebots was designing and building out the Diagram Editor. We broke up the project into two separate parts, the Schematic and the Interface Builder (Which at the time we called UX Flow). To dip my feet in I would work on the Interface Builder as that is where the most unknowns would be. The goal for the Interface Builder was to be able to create a readable flow of an application (That connects with the Schematic and requirements)
 
-### Research
+#### Research
 
 For the Interface Builder I would need to diagnose the libraries that I would be creating to use in the interface builder. Based on Lampbot we would need to encapsulate Capabilities(which would soon be known as Behaviors), Tiles, Views, Components and Elements. Where most of that was housed was in an extension view, so I went about drawing up the lists and compiling the information of the objects.
 
@@ -27,7 +24,7 @@ This brought to light improvements like duplication, copying and pasting and mov
 
 ![Example of a Model](/assets/img/work/model-example.png "Example of a Model")
 
-### Initial Build of the Diagram Editor
+#### Initial Build of the Diagram Editor
 
 After researching and defining the deliverables that would be required for the Interface Builder I would spend my time working and testing the early prototypes of the Diagram Editor with the systems developer. We built this out with (three.js)[https://threejs.org/] but kept it seperate from the LAMP stack at this time. The point of this prototyping was to build out and test the set requirements we had discovered.
 
@@ -37,13 +34,13 @@ From there I would be able to build out the shapes that we could use. The develo
 
 We created shapes through svg's, despite the fact that we were using three.js we kept the camera in a 2d scope. We would layer the shapes on the z axis. The svg's would be based on path coordinates, which to begin with meant I had to build out shapes by plotting out coordinates.
 
-![Evolving the Prototyping](/assets/img/work/de-1.png "Evolving the Prototyping")
+![Evolving the Prototyping](/assets/img/work/de-2.png "Evolving the Prototyping")
 
 I quickyl discovered that if I was going to make this scalable I would need to  work out a way to bring vector shapes from design tools like Sketch or Adobe XD and convert them into the coordinates.
 
 So with that, I whipped up a very (simple SVG converter)[https://codepen.io/jtregenza/pen/dVwzjE] and at the time I worked with a foundation shape kit. The Lampbot's ui was loosely based on foundation and so I utilised Foundation's Kitchen Sink and built out the elements and components to then convert them with my converter. We would later take the learnings from my convertor so that Lampbot could do this step for us. 
 
-### Running Scenarios
+#### Running Scenarios
 
 With basic shapes understood and a process set up we took a set back from the prototype and defined and developed scenarios that we would run through on the whiteboard. I would create a paper prototype of the diagram editor and document how specifics action would work. This would allow us to define holes and establish rules as to what the Diagram Editor would be for Lampbot.
 
@@ -53,9 +50,9 @@ We discovered that, though we had the schematic and interface builder, the funct
 
 We also established actions that the interface builder would be tasked with. So that once a button would be selected we could intiate these actions. This would again, utilise the interface builder better and allow more end users to build out an entire application, should they choose to, by themselves.
 
-![An Interation of the Interface Builder Design](/assets/img/work/interface-builder-design.png "Iteration of the Interface Builder")
+![An Iteration of the Interface Builder Design](/assets/img/work/interface-builder-design.png "Iteration of the Interface Builder")
 
-### Building out the look of the Diagram Editor 
+#### Building out the look of the Diagram Editor 
 
 Before I joined, there was another designer that had done some work on the diagram editor, they work side by side with the founder to build out some high fidelity concepts. 
 
@@ -68,7 +65,7 @@ Along with the Design Lead of Codebots we iterated on the design of the diagram 
 ![Last Design of the Diagram Editor](/assets/img/work/diagram-editor-design.png "Last Design of the Diagram Editor")
 > This was the last design that myself and the Design Lead had worked upon for the Diagram Editor (March 2018)
 
-### Learnings
+#### Learnings
 
 With a design planned out and the scope of development set by the scenarios, we would start showing the public Codebots and the Diagram Editor. We would do live demos of the platform at our Launch, at AI meetups and at Myriad 2018.
 
