@@ -17,7 +17,7 @@ For the Interface Builder I would need to diagnose the libraries that I would be
 
 One of the constraints of this project was keeping User Research and Testing within WorkingMouse until Codebots reached Beta launch. I would call upon developers predominately to further understand how they would draw up models that we would be improving on with the Diagram Editor.
 
-To keep our terminology consistent across marketing and development we kept the personas of Captains, Creators & Builders. Captians was the grouping for more managerial types where as Creators and Builders were for Designers and Developers respectively. Whilst other sections of the Codebots Platform would be crucial for Captains, the Diagram Editor was primarily for Creators and Builders (Each getting a respective diagram). 
+To keep our terminology consistent across marketing and development we kept the personas of Captains, Creators & Builders. Captains was the grouping for more managerial types where as Creators and Builders were for Designers and Developers respectively. Whilst other sections of the Codebots Platform would be crucial for Captains, the Diagram Editor was primarily for Creators and Builders (Each getting a respective diagram). 
 
 The developers used the program, Eclipse where they could build a schematic and a view model. These where built out of objects that would be defined by a parent model that defined the rules. As there was few documents that went into the these rules (aside from abstracts defined in Codebots's founders thesis) I need to sift through the graphic and eclipse modelling frameworks in order ot understand. 
 
