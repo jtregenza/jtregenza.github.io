@@ -44,7 +44,10 @@ With that I used the existing Lampbot admin style (Note: not the one that I had 
 
 ![UX Flow for API Capabilities](/assets/img/work/App-capability-uxflow.png "UX Flow for API Capabilities")
 
-
-
 #### Implementing new ways to work 
 
+Outside of the UX/UI design work I successfully transferred the company from using LESS as their CSS extension to Sass and worked with all new designers (At the time of joining there were 4 designers (including myself), at the highest point, there were 11 designers) in how best to use Lampbot and implement their designs through it. The Lampbot team devised the Funnel Style Structure that we would use in order make designers better able to code. 
+
+This would then move towards the [Style Implementation Guide](/work/style-implementation) and a Design System Language that would be built into the Codebots Library Section.
+
+This built upon my desire to teach and mentor others and give me opportunity to build those skills.

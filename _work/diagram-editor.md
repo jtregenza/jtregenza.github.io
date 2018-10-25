@@ -17,6 +17,8 @@ For the Interface Builder I would need to diagnose the libraries that I would be
 
 One of the constraints of this project was keeping User Research and Testing within WorkingMouse until Codebots reached Beta launch. I would call upon developers predominately to further understand how they would draw up models that we would be improving on with the Diagram Editor.
 
+To keep our terminology consistent across marketing and development we kept the personas of Captains, Creators & Builders. Captians was the grouping for more managerial types where as Creators and Builders were for Designers and Developers respectively. Whilst other sections of the Codebots Platform would be crucial for Captains, the Diagram Editor was primarily for Creators and Builders (Each getting a respective diagram). 
+
 The developers used the program, Eclipse where they could build a schematic and a view model. These where built out of objects that would be defined by a parent model that defined the rules. As there was few documents that went into the these rules (aside from abstracts defined in Codebots's founders thesis) I need to sift through the graphic and eclipse modelling frameworks in order ot understand. 
 
 Between reading through raw code and sketching out potential flows, I would interview and observe developers in how they used eclipse, what were the boons and what were the missteps. 
@@ -45,11 +47,11 @@ So with that, I whipped up a very [simple SVG converter](https://codepen.io/jtre
 
 With basic shapes understood and a process set up we took a set back from the prototype and defined and developed scenarios that we would run through on the whiteboard. I would create a paper prototype of the diagram editor and document how specifics action would work. This would allow us to define holes and establish rules as to what the Diagram Editor would be for Lampbot.
 
-![An example of the Scenarios](/assets/img/work/de-scenarios.png "An example of the Scenarios")
+![An example of the Scenarios](/assets/img/work/de-scenarios.jpg "An example of the Scenarios")
 
-We discovered that, though we had the schematic and interface builder, the functionality and connection between the two were taken care of outside a model. We created a wormhole that would bridge the two models togther so that more meaning would be created and the interface builder would have more relevancy to how the data would be set. 
+We discovered that, though we had the schematic and interface builder, the functionality and connection between the two were taken care of outside a model. We created a wormhole that would bridge the two models together so that more meaning would be created and the interface builder would have more relevancy to how the data would be set. 
 
-We also established actions that the interface builder would be tasked with. So that once a button would be selected we could intiate these actions. This would again, utilise the interface builder better and allow more end users to build out an entire application, should they choose to, by themselves.
+We also established actions that the interface builder would be tasked with. So that once a button would be selected we could initiate these actions. This would again, utilise the interface builder better and allow more end users to build out an entire application, should they choose to, by themselves.
 
 ![An Iteration of the Interface Builder Design](/assets/img/work/interface-builder-design.png "Iteration of the Interface Builder")
 
@@ -61,7 +63,7 @@ My style of design differed in this way, as I needed to know more about how the 
 
 So I would iterate on the shapes that we would use, going from the "Extension Shapes" to the "Foundation Shapes" until we understood that leaning on Lampbot's existing objects defined it the parent model would be most beneficial. 
 
-Along with the Design Lead of Codebots we iterated on the design of the diagram editor into a more future ui design, so the gave us the ability to bring in future design plans for the Codebots platform whithin the diagram editor. 
+Along with the Design Lead of Codebots we iterated on the design of the diagram editor into a more future ui design, so the gave us the ability to bring in future design plans for the Codebots platform within the diagram editor. 
 
 ![Last Design of the Diagram Editor](/assets/img/work/diagram-editor-design.png "Last Design of the Diagram Editor")
 > This was the last design that myself and the Design Lead had worked upon for the Diagram Editor (March 2018)
