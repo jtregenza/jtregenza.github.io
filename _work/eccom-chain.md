@@ -27,11 +27,15 @@ The project encompassed:
 - Angular Development
 - Sass restructure & Documentation
 
+![Eccom Chain Dashboard Look](/assets/img/work/eccom-chain.png "Eccom Chain Dashboard Look")
+
 Before spending the time to deconstruct and reconstruct the menu for the admin, I spend the time research the current users and what they use most in the platform.
 From there I would not only be able to design up a new dashboard but also use that knowledge in making a menu that made sense to users and the development team.
 
 I spent the time making mockups, click-through prototypes and ui kits so that the work I did could be utilised long after my time with Eccom had reached its close.
 I worked alongside one of the in-house developers to understand the code base as quickly as possible. He was in charge of restructuring the codebase and assisted in understand the more abstract and dated pieces of code that I got to before his team could. 
+
+![Eccom Chain UI Kit](/assets/img/work/eccom-chain=ui-kit.png "Eccom Chain UI Kit")
 
 As an added bonus of my work with the team, I was able to make the existing Sass style structure more responsive and fluid.
 With the new style structure and documentation of how best to write Sass, I would leave the project with a plan of succession for the in-house designer to work with to make sustainable progress. 

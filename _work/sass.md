@@ -13,4 +13,4 @@ While CSS is perfectly good on it's own, it has a few missteps and inefficiencie
 
 Sass is my preprocessor of choice. During my time with WorkingMouse, I brought Sass into the implementation process and trained many designers how to best use the extension to bring their designs to life.
 
-I have given various talks about Sass internally, during my time at WM, and made extensive documentation for designers and developers alike. 
+I have given [various talks about Sass internally](/assets/slide-decks/sass-deck.pdf), during my time at WM, and made extensive documentation for designers and developers alike. 
