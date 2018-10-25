@@ -209,10 +209,31 @@ canvas {
 		p {
 			min-width: 240px;
 		}
+		h1,
+		h2,
+		h3 {
+			font-family:'Roboto', Helvetica, Arial, sans-serif;
+		}
+		h1 {
+			font-size:2.5rem;
+		}
+		h2 {
+			font-size: 2rem;
+		}
+		h3 {
+			font-size:1.75rem;
+		}
+		h4 {
+			font-size: 1.5rem;
+		}
+		h5 {
+			font-size: 1.25rem;
+		}
 	}
 	img{
 		width:100%;
 		padding:1rem;
+		box-shadow: 0 4px 4px rgba(0,0,0,0.24), 0 0 4px rgba(0,0,0,0.12);
 	}
 	& + footer {
 		width:40%;
@@ -240,6 +261,8 @@ hr {
 .skills{
 	border-top: 4px solid rgb(63, 81, 181);
 }
+
+
 
 
 
