@@ -33,9 +33,9 @@ I came up with a general color theme to base the designs but outside of that I w
 
 #### Building out new Behaviours
 
-When behaviours weren't being created within client projects, I would be the one who would design them out. For example, we needed a new way to create API calls, not just for developers but for anyone who was tech savy enough to know what they were. 
+When behaviours weren't being created within client projects, I would be the one who would design them out. For example, we needed a new way to create API calls, not just for developers but for anyone who was tech savvy enough to know what they were. 
 
-![Early Sketches for The API Behaviours](/assets/img/work/api-sketches.jpg "Early Sketches for The API Behaviours")
+![Early Sketches for The API Behaviours](/assets/img/work/api-sketches.JPG "Early Sketches for The API Behaviours")
 
 We would use the scratch programming language in order to create API calls out of 'puzzle pieces'. So with this 'solution first' approach I went on to create the pieces using [Google's Blockly](https://developers.google.com/blockly/).
 Proving that this could be done with the language I would then interview developers to greater understand API Calls and how they use them. This would then lead to exploring other programs like Postmate to identify what they do right and where tension lies. 

@@ -25,7 +25,7 @@ Some of the projects, tasks and accomplishments during my tenure at WorkingMouse
 - UI Designs for prospective and incoming clients
 - Robust documentation for new and existing designers for Sass and style implementation.
 
-The culture of Working Mouse aligned with agile, iterative development through model driven development. While I was able to create UI designs and UX flows, I would also be tackling how best teams of designers and developers would work, by fostering clear communication and greater understanding of each's skill sets.
+The culture of Working Mouse aligned with agile, iterative development through model driven development. While I was able to create UI designs and UX flows, I would also be tackling how best teams of designers and developers would work, by fostering clear communication and greater understanding of each parties skill sets.
 
 About a year into my time at WorkingMouse, I officially moved across to Codebots and was the designer for the Lampbot Team.
 

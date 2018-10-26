@@ -39,7 +39,7 @@ We created shapes through svg's, despite the fact that we were using three.js we
 
 ![Evolving the Prototyping](/assets/img/work/de-2.png "Evolving the Prototyping")
 
-I quickyl discovered that if I was going to make this scalable I would need to  work out a way to bring vector shapes from design tools like Sketch or Adobe XD and convert them into the coordinates.
+I quickly discovered that if I was going to make this scalable I would need to  work out a way to bring vector shapes from design tools like Sketch or Adobe XD and convert them into the coordinates.
 
 So with that, I whipped up a very [simple SVG converter](https://codepen.io/jtregenza/pen/dVwzjE) and at the time I worked with a foundation shape kit. The Lampbot's ui was loosely based on foundation and so I utilised Foundation's Kitchen Sink and built out the elements and components to then convert them with my converter. We would later take the learnings from my convertor so that Lampbot could do this step for us. 
 
