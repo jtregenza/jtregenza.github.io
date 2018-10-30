@@ -39,7 +39,7 @@ Now, that doesn't mean that you can only solve problems or that you can reformat
 
 And you could be valid in that but design is in it's context, at least it is solving the problems that the world has. More often than not, these are problems that we ourselves have created. Design isn't to backpedal on those problems, to hit the undo button, it's to create solutions that won't cause more problems down the track
 
-#### The Designer with a million disciplines 
+##### The Designer with a million disciplines 
 
 A designer has specific disciplines that they are trained in and use at their disposal.
 
@@ -51,7 +51,7 @@ My point is that if you're a designer, you shouldn't hold onto what discipline y
 
 Sure, you will need to know how to use the right tools. The more soft skills (like problem solving) is transferable and many skills that designers learn can be transferred,
 
-#### Risky business
+##### Risky business
 
 So if designers are problem solvers, as opposed to making things look pretty, and, you know, taking existing systems that people haven't spent the time to think about just, you know, putting lipstick on the proverbial pig, if they are in more control of the the, the solutions that they are trying to solve, does that create risk?
 
@@ -67,7 +67,7 @@ For the latter, ask yourself if you wanted a designer or you just wanted a desig
 
 What a good designer should do is when they are solving a problem, that they are de-risking that problem, that they are creating clarity and transparency with what they're doing so that when your product, for example, goes to market, that the problems that could come up are taken care of. Making sure that the core demographic that you're striving to sell to are going to get the most out of the product.
 
-#### Working with a designer
+##### Working with a designer
 
 Working with a designer is working with a partner.
 
